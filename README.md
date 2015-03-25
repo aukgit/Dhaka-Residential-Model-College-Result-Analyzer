@@ -11,18 +11,23 @@ There were in total of 44 individual crystal reports which generates all the nec
 
 ![Query Manager to Load Class Result Information](https://github.com/aukgit/Old-Work-Images/blob/master/Software%20Design/DRMC%20Result%20Analyzer%20%5BYear%202006%20Q2%20Deployment%5D/information%20query%20manager.JPG?raw=true)
 
-###To change or add same information to multiple students at once.
+### Student profiles can be edited in 2 different ways : Grid
 ![Student Information adding and searching](https://github.com/aukgit/Old-Work-Images/blob/master/Software%20Design/DRMC%20Result%20Analyzer%20%5BYear%202006%20Q2%20Deployment%5D/flexible%20searhing%20system%20on%20grid%20view.JPG?raw=true)
-### Student profiles can be edited in 2 different ways (Grid | Form)
+### Student profiles can be edited in 2 different ways : Form
 
 ![Profile Editing Option 2](https://github.com/aukgit/Old-Work-Images/blob/master/Software%20Design/DRMC%20Result%20Analyzer%20%5BYear%202006%20Q2%20Deployment%5D/entry%20profile%20in%202%20diff%20ways.JPG?raw=true)
+
+###To change or add same information to multiple students at once.
 ![Better Searching with comma's](https://github.com/aukgit/Old-Work-Images/blob/master/Software%20Design/DRMC%20Result%20Analyzer%20%5BYear%202006%20Q2%20Deployment%5D/input%20same%20information%20in%20flexible%20way.JPG?raw=true)
 ![Options copy paste system](https://github.com/aukgit/Old-Work-Images/blob/master/Software%20Design/DRMC%20Result%20Analyzer%20%5BYear%202006%20Q2%20Deployment%5D/average%20option.JPG?raw=true)
 ![Customizing Options](https://github.com/aukgit/Old-Work-Images/blob/master/Software%20Design/DRMC%20Result%20Analyzer%20%5BYear%202006%20Q2%20Deployment%5D/customized.JPG?raw=true)
 ![More Customizing Options](https://github.com/aukgit/Old-Work-Images/blob/master/Software%20Design/DRMC%20Result%20Analyzer%20%5BYear%202006%20Q2%20Deployment%5D/customiz_options.JPG?raw=true)
+
+### Auto converting number based on given settings
+
+
 ![Numbers auto-converting based on settings](https://github.com/aukgit/Old-Work-Images/blob/master/Software%20Design/DRMC%20Result%20Analyzer%20%5BYear%202006%20Q2%20Deployment%5D/autoconvert.JPG?raw=true)
 ### Grade and marks processor
-
 
 ![Grades and Marks Processor](https://github.com/aukgit/Old-Work-Images/blob/master/Software%20Design/DRMC%20Result%20Analyzer%20%5BYear%202006%20Q2%20Deployment%5D/marks%20distrubution%20%20form(grading).JPG?raw=true)
 
