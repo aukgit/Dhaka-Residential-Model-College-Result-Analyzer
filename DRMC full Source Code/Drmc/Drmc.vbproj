@@ -1,0 +1,1489 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A1F69C03-A070-4AC7-8DA3-52A465E6FEAF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>AukSoftware.My.MyApplication</StartupObject>
+    <RootNamespace>AukSoftware</RootNamespace>
+    <AssemblyName>Drmc</AssemblyName>
+    <MyType>WindowsForms</MyType>
+    <OptionExplicit>Off</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <ManifestCertificateThumbprint>F87DF87BB99A7A504DF5485428D5207AD06B38AE</ManifestCertificateThumbprint>
+    <ManifestKeyFile>Drmc_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <TargetZone>LocalIntranet</TargetZone>
+    <SignManifests>true</SignManifests>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ApplicationIcon>Drmc2.ico</ApplicationIcon>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>Drmc_TemporaryKey.pfx</AssemblyOriginatorKeyFile>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationVersion>7.9.8.%2a</ApplicationVersion>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <BootstrapperComponentsLocation>Relative</BootstrapperComponentsLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>false</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <WarningLevel>0</WarningLevel>
+    <Optimize>false</Optimize>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <WarningLevel>0</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Microsoft.VisualBasic.Compatibility" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="Microsoft.VisualBasic.Compatibility" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admins.Designer.vb">
+      <DependentUpon>Admins.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admins.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlsoShow.vb" />
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="AukClss\AukFunC2_Continue.vb" />
+    <Compile Include="AukClss\SoftIn.vb" />
+    <Compile Include="AukClss\StrEntrys.vb" />
+    <Compile Include="AukFunC.vb" />
+    <Compile Include="AukMath.vb" />
+    <Compile Include="AukMod.vb" />
+    <Compile Include="AukSoft.Designer.vb">
+      <DependentUpon>AukSoft.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AukSoft.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AuksoftDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AuksoftDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AukSql6.vb" />
+    <Compile Include="BigSheets\BigSheet2.vb">
+      <SubType>Component</SubType>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BigSheet2.rpt</DependentUpon>
+    </Compile>
+    <Compile Include="BigSheets\BigSheet3.vb">
+      <SubType>Component</SubType>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BigSheet3.rpt</DependentUpon>
+    </Compile>
+    <Compile Include="BigSheets\CommerceBigSheetReport.vb">
+      <SubType>Component</SubType>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CommerceBigSheetReport.rpt</DependentUpon>
+    </Compile>
+    <Compile Include="BigSheets\HumanBigSheetReport.vb">
+      <SubType>Component</SubType>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HumanBigSheetReport.rpt</DependentUpon>
+    </Compile>
+    <Compile Include="BigSheets\ScienceBigSheetReport.vb">
+      <SubType>Component</SubType>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ScienceBigSheetReport.rpt</DependentUpon>
+    </Compile>
+    <Compile Include="ChgView.Designer.vb">
+      <DependentUpon>ChgView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ChgView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClassOptions.Designer.vb">
+      <DependentUpon>ClassOptions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ClassOptions.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClassTextPrint.Designer.vb">
+      <DependentUpon>ClassTextPrint.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ClassTextPrint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClassUpdates.Designer.vb">
+      <DependentUpon>ClassUpdates.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ClassUpdates.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Convert and Total.Designer.vb">
+      <DependentUpon>Convert and Total.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Convert and Total.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Informations.Designer.vb">
+      <DependentUpon>Informations.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Informations.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewForms\Options_settings.Designer.vb">
+      <DependentUpon>Options_settings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NewForms\Options_settings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OthersReports\BlankClassTeacherComments.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BlankClassTeacherComments.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="OthersReports\blankComments.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>blankComments.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="OthersReports\BlankMedicalofficer%27s.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BlankMedicalofficer%27s.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="OthersReports\ClassOptionsReport.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ClassOptionsReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="OthersReports\ClassTest.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ClassTest.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="OthersReports\ClassUpdateSummary.vb">
+      <SubType>Component</SubType>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ClassUpdateSummary.rpt</DependentUpon>
+    </Compile>
+    <Compile Include="OthersReports\Copy %283%29 of ClassTest.vb">
+      <SubType>Component</SubType>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Copy %283%29 of ClassTest.rpt</DependentUpon>
+    </Compile>
+    <Compile Include="OthersReports\Copy of BigSheet2.vb">
+      <SubType>Component</SubType>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Copy of BigSheet2.rpt</DependentUpon>
+    </Compile>
+    <Compile Include="OthersReports\Copy of ClassTest.vb">
+      <SubType>Component</SubType>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Copy of ClassTest.rpt</DependentUpon>
+    </Compile>
+    <Compile Include="OthersReports\Copy of CrystalReport1.vb">
+      <SubType>Component</SubType>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Copy of CrystalReport1.rpt</DependentUpon>
+    </Compile>
+    <Compile Include="OthersReports\Copy of SingleSubject2nd.vb">
+      <SubType>Component</SubType>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Copy of SingleSubject2nd.rpt</DependentUpon>
+    </Compile>
+    <Compile Include="OthersReports\Copy of SScBlackSubjectsReport.vb">
+      <SubType>Component</SubType>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Copy of SScBlackSubjectsReport.rpt</DependentUpon>
+    </Compile>
+    <Compile Include="OthersReports\Copy of WorkingDays.vb">
+      <SubType>Component</SubType>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Copy of WorkingDays.rpt</DependentUpon>
+    </Compile>
+    <Compile Include="OthersReports\CrystalReport1.vb">
+      <SubType>Component</SubType>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport1.rpt</DependentUpon>
+    </Compile>
+    <Compile Include="OthersReports\DefaultNumbers.vb">
+      <SubType>Component</SubType>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DefaultNumbers.rpt</DependentUpon>
+    </Compile>
+    <Compile Include="OthersReports\PersonalInformation.vb">
+      <SubType>Component</SubType>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PersonalInformation.rpt</DependentUpon>
+    </Compile>
+    <Compile Include="OthersReports\PositionReport.vb">
+      <SubType>Component</SubType>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PositionReport.rpt</DependentUpon>
+    </Compile>
+    <Compile Include="OthersReports\SeniorBlackSubjectsReport.vb">
+      <SubType>Component</SubType>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SeniorBlackSubjectsReport.rpt</DependentUpon>
+    </Compile>
+    <Compile Include="OthersReports\SingleSubBlank.vb">
+      <SubType>Component</SubType>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SingleSubBlank.rpt</DependentUpon>
+    </Compile>
+    <Compile Include="OthersReports\SingleSubject2nd.vb">
+      <SubType>Component</SubType>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SingleSubject2nd.rpt</DependentUpon>
+    </Compile>
+    <Compile Include="OthersReports\SingleSubjectFirst.vb">
+      <SubType>Component</SubType>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SingleSubjectFirst.rpt</DependentUpon>
+    </Compile>
+    <Compile Include="OthersReports\SingleSubjectThird.vb">
+      <SubType>Component</SubType>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SingleSubjectThird.rpt</DependentUpon>
+    </Compile>
+    <Compile Include="OthersReports\SScBlackSubjectsReport.vb">
+      <SubType>Component</SubType>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SScBlackSubjectsReport.rpt</DependentUpon>
+    </Compile>
+    <Compile Include="OthersReports\StudentsClass.vb">
+      <SubType>Component</SubType>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StudentsClass.rpt</DependentUpon>
+    </Compile>
+    <Compile Include="OthersReports\StudentsWholeRecord.vb">
+      <SubType>Component</SubType>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StudentsWholeRecord.rpt</DependentUpon>
+    </Compile>
+    <Compile Include="OthersReports\SubjectsOFClass.vb">
+      <SubType>Component</SubType>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SubjectsOFClass.rpt</DependentUpon>
+    </Compile>
+    <Compile Include="OthersReports\SubjectsPrint.vb">
+      <SubType>Component</SubType>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SubjectsPrint.rpt</DependentUpon>
+    </Compile>
+    <Compile Include="OthersReports\SudentsSubjectsReport.vb">
+      <SubType>Component</SubType>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SudentsSubjectsReport.rpt</DependentUpon>
+    </Compile>
+    <Compile Include="OthersReports\SummaryReportOnly.vb">
+      <SubType>Component</SubType>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SummaryReportOnly.rpt</DependentUpon>
+    </Compile>
+    <Compile Include="OthersReports\WorkingDays.vb">
+      <SubType>Component</SubType>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WorkingDays.rpt</DependentUpon>
+    </Compile>
+    <Compile Include="SingleReports\JoniorSingleCopy2.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>JoniorSingleCopy2.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Marks Division_3.Designer.vb">
+      <DependentUpon>Marks Division_3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Marks Division_3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="New Reports\PersonalInformationDbType.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PersonalInformationDbType.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="NewForms\Image Browser.Designer.vb">
+      <DependentUpon>Image Browser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NewForms\Image Browser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewForms\Terminal2.designer.vb">
+      <DependentUpon>Terminal2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NewForms\Terminal2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PositionGenerator2.Designer.vb">
+      <DependentUpon>PositionGenerator2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PositionGenerator2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintOption3.Designer.vb">
+      <DependentUpon>PrintOption3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PrintOption3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SingleReports\SeniorNormalermSingleResult.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SeniorNormalermSingleResult.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SingleReports\SeniorSingleCopy2_export2.vb">
+      <DependentUpon>SeniorSingleCopy2_export2.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="SqlQueryBuilder.Designer.vb">
+      <DependentUpon>SqlQueryBuilder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SqlQueryBuilder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DrmcModule.vb" />
+    <Compile Include="FullViewResult.Designer.vb">
+      <DependentUpon>FullViewResult.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FullViewResult.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Help1.Designer.vb">
+      <DependentUpon>Help1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Help1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Grid.Designer.vb">
+      <DependentUpon>Grid.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Grid.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HouseEdit.Designer.vb">
+      <DependentUpon>HouseEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HouseEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Logo.Designer.vb">
+      <DependentUpon>Logo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Logo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainScreen Database.Designer.vb">
+      <DependentUpon>MainScreen Database.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainScreen Database.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuView.Designer.vb">
+      <DependentUpon>MenuView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MenuView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Register.Designer.vb">
+      <DependentUpon>Register.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Register.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportViewer2.Designer.vb">
+      <DependentUpon>ReportViewer2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReportViewer2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ctmarks.Designer.vb">
+      <DependentUpon>Ctmarks.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ctmarks.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DatagridClasstest.Designer.vb">
+      <DependentUpon>DatagridClasstest.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DatagridClasstest.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GridOfTerminal2.Designer.vb">
+      <DependentUpon>GridOfTerminal2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GridOfTerminal2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OtherEntryForm.Designer.vb">
+      <DependentUpon>OtherEntryForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OtherEntryForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QueryManager.Designer.vb">
+      <DependentUpon>QueryManager.vb</DependentUpon>
+    </Compile>
+    <Compile Include="QueryManager.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportViewer.Designer.vb">
+      <DependentUpon>ReportViewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReportViewer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resource2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource2.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RegOcx.vb" />
+    <Compile Include="Resource1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource1.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.vb" />
+    <Compile Include="SqlBuilder.vb" />
+    <Compile Include="SingleReports\SSC_Single_Finalize2.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SSC_Single_Finalize2.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SubjectCollection.Designer.vb">
+      <DependentUpon>SubjectCollection.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SubjectCollection.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubjectEditor.Designer.vb">
+      <DependentUpon>SubjectEditor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SubjectEditor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubjectsEditor.Designer.vb">
+      <DependentUpon>SubjectsEditor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SubjectsEditor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TbSql.vb" />
+    <Compile Include="Terminal.Designer.vb">
+      <DependentUpon>Terminal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Terminal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TSql.vb" />
+    <Compile Include="FlashNet.vb" />
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSql.vb" />
+    <Compile Include="ListXw.Designer.vb">
+      <DependentUpon>ListXw.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ListXw.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="QAukSql.vb" />
+    <Compile Include="VSImages.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VSImages.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Admins.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Admins.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AukSoft.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AukSoft.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BigSheets\BigSheet2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BigSheet2.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BigSheets\BigSheet3.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BigSheet3.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BigSheets\CommerceBigSheetReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CommerceBigSheetReport.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BigSheets\HumanBigSheetReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>HumanBigSheetReport.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BigSheets\ScienceBigSheetReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ScienceBigSheetReport.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChgView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ChgView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClassOptions.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ClassOptions.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClassTextPrint.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ClassTextPrint.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClassUpdates.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ClassUpdates.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Convert and Total.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Convert and Total.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Informations.resx">
+      <DependentUpon>Informations.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewForms\Options_settings.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Options_settings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OthersReports\BlankClassTeacherComments.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BlankClassTeacherComments.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OthersReports\blankComments.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>blankComments.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OthersReports\BlankMedicalofficer%27s.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BlankMedicalofficer%27s.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OthersReports\ClassOptionsReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ClassOptionsReport.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OthersReports\ClassTest.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ClassTest.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OthersReports\ClassUpdateSummary.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ClassUpdateSummary.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OthersReports\Copy %283%29 of ClassTest.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Copy %283%29 of ClassTest.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OthersReports\Copy of BigSheet2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Copy of BigSheet2.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OthersReports\Copy of ClassTest.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Copy of ClassTest.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OthersReports\Copy of CrystalReport1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Copy of CrystalReport1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OthersReports\Copy of SingleSubject2nd.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Copy of SingleSubject2nd.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OthersReports\Copy of SScBlackSubjectsReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Copy of SScBlackSubjectsReport.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OthersReports\Copy of WorkingDays.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Copy of WorkingDays.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OthersReports\CrystalReport1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OthersReports\DefaultNumbers.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>DefaultNumbers.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OthersReports\PersonalInformation.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PersonalInformation.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OthersReports\PositionReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PositionReport.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OthersReports\SeniorBlackSubjectsReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SeniorBlackSubjectsReport.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OthersReports\SingleSubBlank.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SingleSubBlank.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OthersReports\SingleSubject2nd.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SingleSubject2nd.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OthersReports\SingleSubjectFirst.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SingleSubjectFirst.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OthersReports\SingleSubjectThird.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SingleSubjectThird.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OthersReports\SScBlackSubjectsReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SScBlackSubjectsReport.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OthersReports\StudentsClass.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>StudentsClass.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OthersReports\StudentsWholeRecord.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>StudentsWholeRecord.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OthersReports\SubjectsOFClass.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SubjectsOFClass.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OthersReports\SubjectsPrint.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SubjectsPrint.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OthersReports\SudentsSubjectsReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SudentsSubjectsReport.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OthersReports\SummaryReportOnly.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SummaryReportOnly.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OthersReports\WorkingDays.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>WorkingDays.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SingleReports\JoniorSingleCopy2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>JoniorSingleCopy2.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Marks Division_3.resx">
+      <DependentUpon>Marks Division_3.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="New Reports\PersonalInformationDbType.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PersonalInformationDbType.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewForms\Image Browser.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Image Browser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewForms\Terminal2.resx">
+      <DependentUpon>Terminal2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PositionGenerator2.resx">
+      <DependentUpon>PositionGenerator2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintOption3.resx">
+      <DependentUpon>PrintOption3.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SingleReports\SeniorNormalermSingleResult.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SeniorNormalermSingleResult.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SingleReports\SeniorSingleCopy2_export2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SeniorSingleCopy2_export2.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SqlQueryBuilder.resx">
+      <DependentUpon>SqlQueryBuilder.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FullViewResult.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FullViewResult.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Help1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Help1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Grid.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Grid.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HouseEdit.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>HouseEdit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Logo.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Logo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainScreen Database.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainScreen Database.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MenuView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Register.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Register.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportViewer2.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ReportViewer2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ctmarks.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Ctmarks.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatagridClasstest.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DatagridClasstest.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GridOfTerminal2.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>GridOfTerminal2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OtherEntryForm.resx">
+      <DependentUpon>OtherEntryForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QueryManager.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>QueryManager.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportViewer.resx">
+      <DependentUpon>ReportViewer.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource2.resx">
+      <SubType>Designer</SubType>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource2.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListXw.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ListXw.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource1.resx">
+      <SubType>Designer</SubType>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource1.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SingleReports\SSC_Single_Finalize2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SSC_Single_Finalize2.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubjectCollection.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SubjectCollection.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubjectEditor.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SubjectEditor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubjectsEditor.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SubjectsEditor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Terminal.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Terminal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VSImages.resx">
+      <SubType>Designer</SubType>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>VSImages.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxShockwaveFlashObjects">
+      <Guid>{D27CDB6B-AE6D-11CF-96B8-444553540000}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="ShockwaveFlashObjects">
+      <Guid>{D27CDB6B-AE6D-11CF-96B8-444553540000}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Drmc_TemporaryKey.pfx" />
+    <BaseApplicationManifest Include="My Project\app.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="BusinessObjects.CrystalReports.NET.2.0">
+      <Visible>False</Visible>
+      <ProductName>Crystal Reports for .NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Data.Access.Components.2.8">
+      <Visible>False</Visible>
+      <ProductName>Microsoft Data Access Components 2.8</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="document.ico" />
+    <Content Include="Drmc2.ico" />
+    <None Include="AuksoftDataSet1.xsc">
+      <DependentUpon>AuksoftDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="AuksoftDataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AuksoftDataSet1.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="AuksoftDataSet1.xss">
+      <DependentUpon>AuksoftDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\ZoomHS.png" />
+    <None Include="Resources\XMLFileHS.png" />
+    <None Include="Resources\WindowsHS.png" />
+    <None Include="Resources\WebInsertHyperlinkHS.png" />
+    <None Include="Resources\Web.png" />
+    <None Include="Resources\WarningHS.png" />
+    <None Include="Resources\ViewThumbnailsHS.png" />
+    <None Include="Resources\TileWindowsHorizontallyHS.png" />
+    <None Include="Resources\ThumbnailViewHS.png" />
+    <None Include="Resources\ThumbnailView.png" />
+    <None Include="Resources\ThumbnailLoadingHS.png" />
+    <None Include="Resources\TextboxHS.png" />
+    <None Include="Resources\TaskHS.png" />
+    <None Include="Resources\TableHS.png" />
+    <None Include="Resources\SymbolHS.png" />
+    <None Include="Resources\SychronizeListHS.png" />
+    <None Include="Resources\StopHS.png" />
+    <None Include="Resources\SplitSubdocumentHS.png" />
+    <None Include="Resources\SpeechMicHS.png" />
+    <None Include="Resources\SortUpHS.png" />
+    <None Include="Resources\SortHS.png" />
+    <None Include="Resources\ShowRulerHS.png" />
+    <None Include="Resources\ShowRulelinesHS.png" />
+    <None Include="Resources\ShowGridlinesHS.png" />
+    <None Include="Resources\ShowGridlines2HS.png" />
+    <None Include="Resources\ShowAllCommentsHS.png" />
+    <None Include="Resources\SendToBackHS.png" />
+    <None Include="Resources\SendBackwardHS.png" />
+    <None Include="Resources\SearchWebHS.png" />
+    <None Include="Resources\SearchFolderHS.png" />
+    <None Include="Resources\saveHS.png" />
+    <None Include="Resources\SaveFormDesignHS.png" />
+    <None Include="Resources\SaveAsWebPageHS.png" />
+    <None Include="Resources\SaveAllHS.png" />
+    <None Include="Resources\RulerHS.png" />
+    <None Include="Resources\RoutingSlipHS.png" />
+    <None Include="Resources\RightToLeftDoucmentHS.png" />
+    <None Include="Resources\RightsRestrictedHS.png" />
+    <None Include="Resources\RightArrowHS.png" />
+    <None Include="Resources\RightArrow2HS.png" />
+    <None Include="Resources\RighsRestrictedHS.png" />
+    <None Include="Resources\RestartHS.png" />
+    <None Include="Resources\ResizeHS.png" />
+    <None Include="Resources\RepeatHS.png" />
+    <None Include="Resources\RenameFolderHS.png" />
+    <None Include="Resources\RelationshipsHS.png" />
+    <None Include="Resources\RefreshDocViewHS.png" />
+    <None Include="Resources\RecordHS.png" />
+    <None Include="Resources\RecolorPictureHS.png" />
+    <None Include="Resources\RadialChartHS.png" />
+    <None Include="Resources\PushpinHS.png" />
+    <None Include="Resources\PublishToWebHS.png" />
+    <None Include="Resources\PublishPlanHS.png" />
+    <None Include="Resources\ProtectSubdocumentHS.png" />
+    <None Include="Resources\ProtectFormHS.png" />
+    <None Include="Resources\PropertiesHS.png" />
+    <None Include="Resources\PrintSetupHS.png" />
+    <None Include="Resources\PrintPreviewHS.png" />
+    <None Include="Resources\PrintHS.png" />
+    <None Include="Resources\PrimaryKeyHS.png" />
+    <None Include="Resources\PreviousPageHS.png" />
+    <None Include="Resources\PortraitLandscapeHS.png" />
+    <None Include="Resources\PortraitHS.png" />
+    <None Include="Resources\PointerHS.png" />
+    <None Include="Resources\PlayHS.png" />
+    <None Include="Resources\PieChartHS.png" />
+    <None Include="Resources\PieChart3DHS.png" />
+    <None Include="Resources\PauseRecorderHS.png" />
+    <None Include="Resources\PauseHS.png" />
+    <None Include="Resources\PasteHS.png" />
+    <None Include="Resources\PageWidthHS.png" />
+    <None Include="Resources\PageUpHS.png" />
+    <None Include="Resources\pageNumberHS.png" />
+    <None Include="Resources\OutdentHS.png" />
+    <None Include="Resources\OrgChartHS.png" />
+    <None Include="Resources\OrganizerHS.png" />
+    <None Include="Resources\OptionsHS.png" />
+    <None Include="Resources\OpenSelectedItemHS.png" />
+    <None Include="Resources\openHS.png" />
+    <None Include="Resources\openfolderHS.png" />
+    <None Include="Resources\NoteHS.png" />
+    <None Include="Resources\NextPageHS.png" />
+    <None Include="Resources\NewReportHS.png" />
+    <None Include="Resources\NewMessageHS.png" />
+    <None Include="Resources\NewFolderHS.png" />
+    <None Include="Resources\NewDocumentHS.png" />
+    <None Include="Resources\NewCardHS.png" />
+    <None Include="Resources\NavForward.png" />
+    <None Include="Resources\NavBack.png" />
+    <None Include="Resources\MultiplePagesHS.png" />
+    <None Include="Resources\MoveToFolderHS.png" />
+    <None Include="Resources\MoveFolderHS.png" />
+    <None Include="Resources\MonthlyViewHS.png" />
+    <None Include="Resources\List_NumberedVertTHS.png" />
+    <None Include="Resources\List_NumberedTBHS.png" />
+    <None Include="Resources\List_NumberedRTLHS.png" />
+    <None Include="Resources\List_NumberedHS.png" />
+    <None Include="Resources\List_BulletsHS.png" />
+    <None Include="Resources\LineColorHS.png" />
+    <None Include="Resources\LegendHS.png" />
+    <None Include="Resources\ItalicHS.png" />
+    <None Include="Resources\InsertTabControlHS.png" />
+    <None Include="Resources\InsertPictureHS.png" />
+    <None Include="Resources\InsertHyperlinkHS.png" />
+    <None Include="Resources\IndentHS.png" />
+    <None Include="Resources\ImportXMLHS.png" />
+    <None Include="Resources\HTMLSubmitHS.png" />
+    <None Include="Resources\HTMLPasswordHS.png" />
+    <None Include="Resources\HTMLPageHS.png" />
+    <None Include="Resources\HtmlBalanceBracesHS.png" />
+    <None Include="Resources\HomeHS.png" />
+    <None Include="Resources\HighlightHS.png" />
+    <None Include="Resources\Help.png" />
+    <None Include="Resources\graphhs.png" />
+    <None Include="Resources\GotoShortcutsHS.png" />
+    <None Include="Resources\GoToPreviousMessage.png" />
+    <None Include="Resources\GoToPrevious.png" />
+    <None Include="Resources\GoToParentFolderHS.png" />
+    <None Include="Resources\GoToNextHS.png" />
+    <None Include="Resources\GoRtlHS.png" />
+    <None Include="Resources\GoLtrHS.png" />
+    <None Include="Resources\FunctionHS.png" />
+    <None Include="Resources\FullScreenHS.png" />
+    <None Include="Resources\FullScreen.png" />
+    <None Include="Resources\FormulaEvaluatorHS.png" />
+    <None Include="Resources\FormRunHS.png" />
+    <None Include="Resources\FontSchemeHS.png" />
+    <None Include="Resources\FontHS.png" />
+    <None Include="Resources\FontDialogHS.png" />
+    <None Include="Resources\FlipVerticalHS.png" />
+    <None Include="Resources\FlipHorizontalHS.png" />
+    <None Include="Resources\Flag_redHS.png" />
+    <None Include="Resources\Flag_greenHS.png" />
+    <None Include="Resources\Flag_blueHS.png" />
+    <None Include="Resources\FindNextHS.png" />
+    <None Include="Resources\FindHS.png" />
+    <None Include="Resources\Filter2HS.png" />
+    <None Include="Resources\FillUpHS.png" />
+    <None Include="Resources\FillRightHS.png" />
+    <None Include="Resources\FillLeftHS.png" />
+    <None Include="Resources\FillDownHS.png" />
+    <None Include="Resources\FaxHS.png" />
+    <None Include="Resources\ExpirationHS.png" />
+    <None Include="Resources\ExpandSpaceHS.png" />
+    <None Include="Resources\eps_openHS.png" />
+    <None Include="Resources\eps_open_largelHS.png" />
+    <None Include="Resources\eps_closedHS.png" />
+    <None Include="Resources\EnvelopeHS.png" />
+    <None Include="Resources\EditTableHS.png" />
+    <None Include="Resources\EditInformationHS.png" />
+    <None Include="Resources\EditCodeHS.png" />
+    <None Include="Resources\EditBrightContrastHS.png" />
+    <None Include="Resources\Edit_UndoHS.png" />
+    <None Include="Resources\Edit_RedoHS.png" />
+    <None Include="Resources\DoubleRightArrowHS.png" />
+    <None Include="Resources\DoubleLeftArrowHS.png" />
+    <None Include="Resources\DocumentHS.png" />
+    <None Include="Resources\DisplayInColorHS.png" />
+    <None Include="Resources\DialHS.png" />
+    <None Include="Resources\DeleteHS.png" />
+    <None Include="Resources\DeleteFolderHS.png" />
+    <None Include="Resources\DataContainer_NewRecordHS.png" />
+    <None Include="Resources\DataContainer_MovePreviousHS.png" />
+    <None Include="Resources\DataContainer_MoveNextHS.png" />
+    <None Include="Resources\DataContainer_MoveLastHS.png" />
+    <None Include="Resources\DataContainer_MoveFirstHS.png" />
+    <None Include="Resources\DataContainer_MoveFirsHS.png" />
+    <None Include="Resources\CutHS.png" />
+    <None Include="Resources\CopyHS.png" />
+    <None Include="Resources\CopyFolderHS.png" />
+    <None Include="Resources\ConflictHS.png" />
+    <None Include="Resources\compareversionsHS.png" />
+    <None Include="Resources\CommentHS.png" />
+    <None Include="Resources\ColorHS.png" />
+    <None Include="Resources\Color_fontHS.png" />
+    <None Include="Resources\Color_font.png" />
+    <None Include="Resources\CheckSpellingHS.png" />
+    <None Include="Resources\CheckGrammarHS.png" />
+    <None Include="Resources\CheckBoxHS.png" />
+    <None Include="Resources\CenterAcrossHS.png" />
+    <None Include="Resources\CascadeWindowsHS.png" />
+    <None Include="Resources\CanvasScaleHS.png" />
+    <None Include="Resources\Calendar_scheduleHS.png" />
+    <None Include="Resources\CalculatorHS.png" />
+    <None Include="Resources\BringToFrontHS.png" />
+    <None Include="Resources\BringForwardHS.png" />
+    <None Include="Resources\BreakpointHS.png" />
+    <None Include="Resources\Book_StackOfReportsHS.png" />
+    <None Include="Resources\book_reportHS.png" />
+    <None Include="Resources\Book_openHS.png" />
+    <None Include="Resources\Book_angleHS.png" />
+    <None Include="Resources\book_addressHS.png" />
+    <None Include="Resources\boldhs.png" />
+    <None Include="Resources\BehindTextHS.png" />
+    <None Include="Resources\BarCodeHS.png" />
+    <None Include="Resources\BackgroundSoundHS.png" />
+    <None Include="Resources\AudioHS.png" />
+    <None Include="Resources\AttachmentHS.png" />
+    <None Include="Resources\ArrangeWindowsHS.png" />
+    <None Include="Resources\ArrangeSideBySideHS.png" />
+    <None Include="Resources\AlignToGridHS.png" />
+    <None Include="Resources\AlignTableCellMiddleRightHS.png" />
+    <None Include="Resources\AlignTableCellMiddleLeftJustHS.png" />
+    <None Include="Resources\AlignTableCellMiddleCenterHS.png" />
+    <None Include="Resources\AlignObjectsTopHS.png" />
+    <None Include="Resources\AlignObjectsRightHS.png" />
+    <None Include="Resources\AlignObjectsLeftHS.png" />
+    <None Include="Resources\AlignObjectsCenteredVerticalHS.png" />
+    <None Include="Resources\AlignObjectsCenteredHorizontalHS.png" />
+    <None Include="Resources\AlignObjectsBottomHS.png" />
+    <None Include="Resources\AddToFavoritesHS.png" />
+    <None Include="Resources\AddTableHS.png" />
+    <None Include="Resources\ActualSizeHS.png" />
+    <None Include="Resources\NewQulity3.png" />
+    <None Include="Resources\NewQulity2.png" />
+    <None Include="Resources\NewQulity.png" />
+    <None Include="Resources\NewQulity4.png" />
+    <None Include="Resources\LabviewSZ.png" />
+    <None Include="Resources\KasperSZ.png" />
+    <None Include="Resources\KasperskyahSZ.png" />
+    <None Include="Resources\HamachiSZ.png" />
+    <None Include="Resources\DWeaververtSZ.png" />
+    <None Include="Resources\DWeaverbleuSZ.png" />
+    <None Include="Resources\DeamontoolsSZ.png" />
+    <None Include="Resources\Bloc Notes SZ.png" />
+    <None Include="Resources\Avast SZ.png" />
+    <None Include="Resources\audacitySZ.png" />
+    <None Include="Resources\Ad-Aware SZ.png" />
+    <None Include="Resources\7zipSZ.png" />
+    <None Include="Resources\3dsmaxSZ.png" />
+    <None Include="Resources\TweakxpSZ.png" />
+    <None Include="Resources\BlenderSZ.png" />
+    <None Include="Resources\BitdefenderSZ.png" />
+    <None Include="Resources\QnextSZ.png" />
+    <None Include="Resources\Clock.png" />
+    <None Include="Resources\windows-media-player.png" />
+    <None Include="Resources\photoshop.png" />
+    <None Include="Resources\avedesk.png" />
+    <None Include="Resources\Music.png" />
+    <None Include="Resources\MSN-Messenger.png" />
+    <None Include="Resources\Forward.png" />
+    <None Include="Resources\Folder Printer.png" />
+    <None Include="Resources\Folder Font.png" />
+    <None Include="Resources\Files-WMP.png" />
+    <None Include="Resources\Files-Help.png" />
+    <None Include="Resources\Favourite.png" />
+    <None Include="Resources\DVD.png" />
+    <None Include="Resources\Documents.png" />
+    <None Include="Resources\CD.png" />
+    <None Include="Resources\Bin %28with item%29.png" />
+    <None Include="Resources\Bin %28empty%29.png" />
+    <None Include="Resources\Back.png" />
+    <None Include="Resources\Windows Media Player.png" />
+    <None Include="Resources\Users.png" />
+    <None Include="Resources\User.png" />
+    <None Include="Resources\User Card.png" />
+    <None Include="Resources\Stop.png" />
+    <None Include="Resources\Printer.png" />
+    <None Include="Resources\Pictures and videos.png" />
+    <None Include="Resources\Pan setting.png" />
+    <None Include="Resources\Paint.png" />
+    <None Include="Resources\Floppy.png" />
+    <None Include="Resources\down.png" />
+    <None Include="Resources\#.png" />
+    <None Include="Resources\#.jpg" />
+    <None Include="Resources\#7.png" />
+    <None Include="Resources\#7.jpg" />
+    <None Include="Resources\#5.png" />
+    <None Include="Resources\#5.jpg" />
+    <None Include="Resources\#4.png" />
+    <None Include="Resources\#4.jpg" />
+    <None Include="Resources\#3.png" />
+    <None Include="Resources\#3.jpg" />
+    <None Include="Resources\#2.png" />
+    <None Include="Resources\#1.png" />
+    <None Include="Resources\AlienAqua avedesk.png" />
+    <None Include="Resources\budy-msn.png" />
+    <None Include="Resources\AlienAqua desktop.png" />
+    <None Include="Resources\ArreterSZ.png" />
+    <None Include="Resources\XoopsSZ.png" />
+    <None Include="Resources\AlienAqua mousse.png" />
+    <None Include="Resources\BoulesSZ.png" />
+    <None Include="Resources\#NewVista6Noborder.png" />
+    <None Include="Resources\config.png" />
+    <None Include="Resources\Windows.png" />
+    <None Include="Resources\#NewVista5Noborder1.png" />
+    <None Include="Resources\#NewVista5Noborder.png" />
+    <None Include="Resources\#NewVista3Noborder.png" />
+    <None Include="Resources\#NewVista4Noborder.png" />
+    <None Include="Resources\#NewVista3.png" />
+    <None Include="Resources\#NewVista2.png" />
+    <None Include="Resources\#NewVista.png" />
+    <None Include="Resources\#Vista7Long.jpg" />
+    <None Include="Resources\#Vista6Long.jpg" />
+    <None Include="Resources\#Vista8Long.jpg" />
+    <None Include="Resources\#Vista5Long.png" />
+    <None Include="Resources\#Vista4Long.png" />
+    <None Include="Resources\#Vista4.jpg" />
+    <None Include="Resources\#Vista3.jpg" />
+    <None Include="Resources\#Vista2.png" />
+    <None Include="Resources\#Vista2.jpg" />
+    <None Include="Resources\#Vista1.png" />
+    <None Include="Resources\#Vista1.jpg" />
+    <None Include="Resources\FermerSZ.png" />
+    <None Include="Resources\ButimGAe3.jpg" />
+    <None Include="Resources\ButimGAe3.png" />
+    <None Include="Resources\ButimGAe2.jpg" />
+    <None Include="Resources\ButimGAe.jpg" />
+    <None Include="Resources\UpIcon.png" />
+    <None Include="Resources\RightIco.png" />
+    <None Include="Resources\MoveFiles.png" />
+    <None Include="Resources\icon.png" />
+    <None Include="Resources\ClipBoardRight.png" />
+    <None Include="Resources\ClipBoardRight2.png" />
+    <None Include="Resources\ClipBoard.png" />
+    <None Include="Resources\writeCd.ico" />
+    <None Include="Resources\windows with worrld.ico" />
+    <None Include="Resources\W2.ico" />
+    <None Include="Resources\UpIcon.ico" />
+    <None Include="Resources\Shut.ico" />
+    <None Include="Resources\ShowThis.ico" />
+    <None Include="Resources\search.ico" />
+    <None Include="Resources\SayCom.ico" />
+    <None Include="Resources\RightIco.ico" />
+    <None Include="Resources\Recycle.ico" />
+    <None Include="Resources\Recent.ico" />
+    <None Include="Resources\printer.ico" />
+    <None Include="Resources\printer2.ico" />
+    <None Include="Resources\printcon.ico" />
+    <None Include="Resources\print from folder.ico" />
+    <None Include="Resources\play.ico" />
+    <None Include="Resources\pictures.ico" />
+    <None Include="Resources\mycomputerico.ico" />
+    <None Include="Resources\music.ico" />
+    <None Include="Resources\msncon.ico" />
+    <None Include="Resources\MoveFiles.ico" />
+    <None Include="Resources\Lock.ico" />
+    <None Include="Resources\keyLock.ico" />
+    <None Include="Resources\Internet.ico" />
+    <None Include="Resources\goIco.ico" />
+    <None Include="Resources\FullRecycle.ico" />
+    <None Include="Resources\format.ico" />
+    <None Include="Resources\foldersearch.ico" />
+    <None Include="Resources\folder.ico" />
+    <None Include="Resources\FindWQhole.ico" />
+    <None Include="Resources\Find.ico" />
+    <None Include="Resources\drive.ico" />
+    <None Include="Resources\document.ico" />
+    <None Include="Resources\dll.ico" />
+    <None Include="Resources\display.ico" />
+    <None Include="Resources\Desktop.ico" />
+    <None Include="Resources\Defragment.ico" />
+    <None Include="Resources\DataTrans.ico" />
+    <None Include="Resources\cross.ico" />
+    <None Include="Resources\cross2.ico" />
+    <None Include="Resources\ControlPanel.ico" />
+    <None Include="Resources\connectons.ico" />
+    <None Include="Resources\ClipBoardRight.ico" />
+    <None Include="Resources\ClipBoard.ico" />
+    <None Include="Resources\cam.ico" />
+    <None Include="Resources\AukCorrented Logo copy.ico" />
+    <None Include="Resources\AukCorrented Logo copy3.ico" />
+    <None Include="Resources\AukCorrented Logo copy2.ico" />
+    <None Include="Resources\Auk.ico" />
+    <None Include="Resources\AllkFilesico.ico" />
+    <None Include="Resources\Sym5.png" />
+    <None Include="Resources\Sym5.jpg" />
+    <None Include="Resources\Sym4.png" />
+    <None Include="Resources\Sym4.jpg" />
+    <None Include="Resources\Sym3.png" />
+    <None Include="Resources\Sym3.jpg" />
+    <None Include="Resources\Sym1.png" />
+    <None Include="Resources\Sym1.jpg" />
+    <None Include="Resources\DownedBlueskyX.png" />
+    <None Include="Resources\DownedBlueskyX.jpg" />
+    <None Include="Resources\DownedBlueskyX1.png" />
+    <None Include="Resources\DownedBlueskyX1.jpg" />
+    <None Include="Resources\DownBluesky4.png" />
+    <None Include="Resources\DownBluesky4.jpg" />
+    <None Include="Resources\DownBluesky3.png" />
+    <None Include="Resources\DownBluesky3.jpg" />
+    <None Include="Resources\DownBluesky2.png" />
+    <None Include="Resources\DownBluesky2.jpg" />
+    <None Include="Resources\Bluesky14.png" />
+    <None Include="Resources\Bluesky14.jpg" />
+    <None Include="Resources\Bluesky12.png" />
+    <None Include="Resources\Bluesky12.jpg" />
+    <None Include="Resources\Sym2.png" />
+    <None Include="Resources\Sym2.jpg" />
+    <None Include="Resources\Red.jpg" />
+    <None Include="Resources\ProfessionalColorCrystalColorWithAukSoft.png" />
+    <None Include="Resources\ProfessionalColorCrystalColorWithAukSoft.jpg" />
+    <None Include="Resources\ProfessionalColorCrystalColor.png" />
+    <None Include="Resources\ProfessionalColorCrystalColor.jpg" />
+    <None Include="Resources\ProfessionalColorCrystalColor7.png" />
+    <None Include="Resources\ProfessionalColorCrystalColor7.jpg" />
+    <None Include="Resources\ProfessionalColorCrystalColor5.png" />
+    <None Include="Resources\ProfessionalColorCrystalColor5.jpg" />
+    <None Include="Resources\ProfessionalColorCrystalColor4.png" />
+    <None Include="Resources\ProfessionalColorCrystalColor4.jpg" />
+    <None Include="Resources\ProfessionalColorCrystalColor2.png" />
+    <None Include="Resources\ProfessionalColorCrystalColor2.jpg" />
+    <None Include="Resources\ProfessionalColor.png" />
+    <None Include="Resources\ProfessionalColor.jpg" />
+    <None Include="Resources\ProfessionalColor2800600.jpg" />
+    <None Include="Resources\ProfessionalColor800600.jpg" />
+    <None Include="Resources\ProfessionalColor640480.jpg" />
+    <None Include="Resources\ProfessionalColor3.png" />
+    <None Include="Resources\ProfessionalColor3.jpg" />
+    <None Include="Resources\ProfessionalColor2.png" />
+    <None Include="Resources\ProfessionalColor2.jpg" />
+    <None Include="Resources\NewCur.png" />
+    <None Include="Resources\NewCur.jpg" />
+    <None Include="Resources\NewCur4.png" />
+    <None Include="Resources\NewCur4.jpg" />
+    <None Include="Resources\NewCur3.png" />
+    <None Include="Resources\NewCur3.jpg" />
+    <None Include="Resources\NewCur2.png" />
+    <None Include="Resources\NewCur2.jpg" />
+    <None Include="Resources\NewAsCrystal1Trans.png" />
+    <None Include="Resources\NewAsCrystal1Trans.jpg" />
+    <None Include="Resources\LabelS.png" />
+    <None Include="Resources\LabelS.jpg" />
+    <None Include="Resources\IcoAukSoft copy.png" />
+    <None Include="Resources\DownBluesky1.png" />
+    <None Include="Resources\DownBluesky1.jpg" />
+    <None Include="Resources\Crystal6.png" />
+    <None Include="Resources\Crystal6.jpg" />
+    <None Include="Resources\Crystal4.png" />
+    <None Include="Resources\Crystal4.jpg" />
+    <None Include="Resources\Crystal3.png" />
+    <None Include="Resources\Crystal3.jpg" />
+    <None Include="Resources\Crystal2.png" />
+    <None Include="Resources\Crystal2.jpg" />
+    <None Include="Resources\Crystal1.png" />
+    <None Include="Resources\Crystal1.jpg" />
+    <None Include="Resources\Bluesky.png" />
+    <None Include="Resources\Bluesky.jpg" />
+    <None Include="Resources\Bluesky10.png" />
+    <None Include="Resources\Bluesky10.jpg" />
+    <None Include="Resources\Bluesky9.png" />
+    <None Include="Resources\Bluesky9.jpg" />
+    <None Include="Resources\Bluesky8.png" />
+    <None Include="Resources\Bluesky8.jpg" />
+    <None Include="Resources\Bluesky7.png" />
+    <None Include="Resources\Bluesky7.jpg" />
+    <None Include="Resources\Bluesky6.png" />
+    <None Include="Resources\Bluesky6.jpg" />
+    <None Include="Resources\Bluesky5.png" />
+    <None Include="Resources\Bluesky5.jpg" />
+    <None Include="Resources\Bluesky4.png" />
+    <None Include="Resources\Bluesky4.jpg" />
+    <None Include="Resources\Bluesky3.png" />
+    <None Include="Resources\Bluesky3.jpg" />
+    <None Include="Resources\Bluesky2.png" />
+    <None Include="Resources\Bluesky2.jpg" />
+    <None Include="Resources\Black.jpg" />
+    <None Include="Resources\BackInformations.png" />
+    <None Include="Resources\BackInformations.jpg" />
+    <None Include="Resources\BackInformations3.png" />
+    <None Include="Resources\BackInformations3.jpg" />
+    <None Include="Resources\BackInformations2.png" />
+    <None Include="Resources\BackInformations2.jpg" />
+    <None Include="Resources\NewAsCrystal1Trans2.png" />
+    <None Include="Resources\NewAsCrystal1Trans1.png" />
+    <None Include="Resources\Bluesky81.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

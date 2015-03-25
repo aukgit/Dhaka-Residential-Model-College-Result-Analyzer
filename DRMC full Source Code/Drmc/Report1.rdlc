@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2005/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSources>
+    <DataSource Name="AukCon">
+      <ConnectionProperties>
+        <ConnectString>Provider=Microsoft.Jet.OLEDB.4.0;Data Source=auksoft.aukbased</ConnectString>
+        <DataProvider>OLEDB</DataProvider>
+      </ConnectionProperties>
+      <rd:DataSourceID>5da29d08-7443-4d2c-8abd-197aa70536cf</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <BottomMargin>1in</BottomMargin>
+  <RightMargin>1in</RightMargin>
+  <rd:DrawGrid>true</rd:DrawGrid>
+  <InteractiveWidth>8.5in</InteractiveWidth>
+  <rd:SnapToGrid>true</rd:SnapToGrid>
+  <Body>
+    <Height>2in</Height>
+  </Body>
+  <rd:ReportID>0ece5424-77a1-4178-8f0e-beea7fd24754</rd:ReportID>
+  <LeftMargin>1in</LeftMargin>
+  <DataSets>
+    <DataSet Name="auksoftDataSet1_SavedTopic">
+      <rd:DataSetInfo>
+        <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
+        <rd:DataSetName>auksoftDataSet1</rd:DataSetName>
+        <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
+        <rd:TableAdapterName>SavedTopicTableAdapter</rd:TableAdapterName>
+        <rd:TableName>SavedTopic</rd:TableName>
+      </rd:DataSetInfo>
+      <Query>
+        <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
+        <CommandText>SELECT ID, SavedTopic, [Year], Term, Class, [Section], Subject FROM SavedTopic</CommandText>
+        <DataSourceName>AukCon</DataSourceName>
+      </Query>
+      <Fields>
+        <Field Name="ID">
+          <rd:TypeName>System.Int32</rd:TypeName>
+          <DataField>ID</DataField>
+        </Field>
+        <Field Name="SavedTopic">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>SavedTopic</DataField>
+        </Field>
+        <Field Name="Year">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>Year</DataField>
+        </Field>
+        <Field Name="Term">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>Term</DataField>
+        </Field>
+        <Field Name="Class">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>Class</DataField>
+        </Field>
+        <Field Name="Section">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>Section</DataField>
+        </Field>
+        <Field Name="Subject">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>Subject</DataField>
+        </Field>
+      </Fields>
+    </DataSet>
+  </DataSets>
+  <Width>6.625in</Width>
+  <InteractiveHeight>11in</InteractiveHeight>
+  <Language>en-US</Language>
+  <TopMargin>1in</TopMargin>
+</Report>
