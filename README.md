@@ -22,7 +22,11 @@ There were in total of 44 individual crystal reports which generates all the nec
 
 ## Reports
 [Few of the reports sample in PDF](https://github.com/aukgit/Old-Work-Images/tree/master/Software%20Design/DRMC%20Result%20Analyzer%20(Crystal%20Reports%20Preview)%20%20%5BYear%202006%20Q2%20Deployment%5D "Few of the reports sample in PDF")
+
+
 [All Reports Source in Crystal Report # 1](https://github.com/aukgit/Dhaka-Residential-Model-College-Result-Analyzer/tree/master/DRMC%20full%20Source%20Code/Drmc/OthersReports)
+
+
 [All Reports Source in Crystal Report # 2](https://github.com/aukgit/Dhaka-Residential-Model-College-Result-Analyzer/tree/master/DRMC%20full%20Source%20Code/Drmc/SingleReports "All Reports Source in Crystal Report # 2")
  
 [All Reports Source in Crystal Report # 3](https://github.com/aukgit/Dhaka-Residential-Model-College-Result-Analyzer/tree/master/DRMC%20full%20Source%20Code/Drmc/New%20Reports "All Reports Source in Crystal Report # 3")
