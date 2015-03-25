@@ -14,7 +14,11 @@ There were in total of 44 individual crystal reports which generates all the nec
 ![More Customizing Options](https://github.com/aukgit/Old-Work-Images/blob/master/Software%20Design/DRMC%20Result%20Analyzer%20%5BYear%202006%20Q2%20Deployment%5D/customiz_options.JPG?raw=true)
 ![Numbers auto-converting based on settings](https://github.com/aukgit/Old-Work-Images/blob/master/Software%20Design/DRMC%20Result%20Analyzer%20%5BYear%202006%20Q2%20Deployment%5D/autoconvert.JPG?raw=true)
 ![Grades and Marks Processor](https://github.com/aukgit/Old-Work-Images/blob/master/Software%20Design/DRMC%20Result%20Analyzer%20%5BYear%202006%20Q2%20Deployment%5D/marks%20distrubution%20%20form(grading).JPG?raw=true)
-[Source Code of the Grades and Marks Processor](https://github.com/aukgit/Dhaka-Residential-Model-College-Result-Analyzer/blob/master/DRMC%20full%20Source%20Code/Drmc/Marks%20Division_3.vb "Source Code of the Grades and Marks Processor")
+
+
+### [Source Code of the Grades and Marks Processor](https://github.com/aukgit/Dhaka-Residential-Model-College-Result-Analyzer/blob/master/DRMC%20full%20Source%20Code/Drmc/Marks%20Division_3.vb "Source Code of the Grades and Marks Processor")
+
+
 
 ![Query manager for printing](https://github.com/aukgit/Old-Work-Images/blob/master/Software%20Design/DRMC%20Result%20Analyzer%20%5BYear%202006%20Q2%20Deployment%5D/results%20and%20other%20informations%20print%20query%20manager.JPG?raw=true)
 ![Report Opening](https://github.com/aukgit/Old-Work-Images/blob/master/Software%20Design/DRMC%20Result%20Analyzer%20%5BYear%202006%20Q2%20Deployment%5D/report_opening.JPG?raw=true)
