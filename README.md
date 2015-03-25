@@ -4,7 +4,7 @@ Dhaka Residential Model College Result Analyzer written in 2006. Exceptional sys
 There were in total of 44 individual crystal reports which generates all the necessary reports for the students of 3-12 grades.
 
 ![Splash Screen](https://github.com/aukgit/Old-Work-Images/blob/master/Software%20Design/DRMC%20Result%20Analyzer%20%5BYear%202006%20Q2%20Deployment%5D/LOGO.JPG?raw=true)
-![Initial Screen(Windowed | FullScreen both) UI is designed with flash](/https://github.com/aukgit/Old-Work-Images/blob/master/Software%20Design/DRMC%20Result%20Analyzer%20%5BYear%202006%20Q2%20Deployment%5D/LOGO3.JPG?raw=true)
+![Initial Screen(Windowed | FullScreen both) UI is designed with flash](https://github.com/aukgit/Old-Work-Images/blob/master/Software%20Design/DRMC%20Result%20Analyzer%20%5BYear%202006%20Q2%20Deployment%5D/LOGO3.JPG?raw=true)
 ![Query Manager to Load Class Result Information](https://github.com/aukgit/Old-Work-Images/blob/master/Software%20Design/DRMC%20Result%20Analyzer%20%5BYear%202006%20Q2%20Deployment%5D/information%20query%20manager.JPG?raw=true)
 ![Student Information adding and searching](https://github.com/aukgit/Old-Work-Images/blob/master/Software%20Design/DRMC%20Result%20Analyzer%20%5BYear%202006%20Q2%20Deployment%5D/flexible%20searhing%20system%20on%20grid%20view.JPG?raw=true)
 ![Profile Editing Option 2](https://github.com/aukgit/Old-Work-Images/blob/master/Software%20Design/DRMC%20Result%20Analyzer%20%5BYear%202006%20Q2%20Deployment%5D/entry%20profile%20in%202%20diff%20ways.JPG?raw=true)
