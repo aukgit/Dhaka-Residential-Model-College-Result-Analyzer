@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
@@ -13,7 +13,7 @@
     <MyType>WindowsForms</MyType>
     <OptionExplicit>Off</OptionExplicit>
     <OptionCompare>Binary</OptionCompare>
-    <ManifestCertificateThumbprint>F87DF87BB99A7A504DF5485428D5207AD06B38AE</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>10872BAAC8FF178E0B258DCB499D89B785A04535</ManifestCertificateThumbprint>
     <ManifestKeyFile>Drmc_TemporaryKey.pfx</ManifestKeyFile>
     <GenerateManifests>true</GenerateManifests>
     <TargetZone>LocalIntranet</TargetZone>
@@ -21,7 +21,8 @@
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <ApplicationIcon>Drmc2.ico</ApplicationIcon>
     <SignAssembly>true</SignAssembly>
-    <AssemblyOriginatorKeyFile>Drmc_TemporaryKey.pfx</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -35,6 +36,13 @@
     <ApplicationVersion>7.9.8.%2a</ApplicationVersion>
     <BootstrapperEnabled>true</BootstrapperEnabled>
     <BootstrapperComponentsLocation>Relative</BootstrapperComponentsLocation>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <ApplicationRevision>7</ApplicationRevision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -44,7 +52,7 @@
     <OutputPath>bin\Debug\</OutputPath>
     <DocumentationFile>
     </DocumentationFile>
-    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
     <WarningLevel>0</WarningLevel>
     <Optimize>false</Optimize>
     <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
@@ -57,7 +65,7 @@
     <OutputPath>bin\Debug\</OutputPath>
     <DocumentationFile>
     </DocumentationFile>
-    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
     <WarningLevel>0</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
@@ -940,6 +948,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="Drmc_TemporaryKey.pfx" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -969,7 +978,6 @@
     </COMReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Drmc_TemporaryKey.pfx" />
     <BaseApplicationManifest Include="My Project\app.manifest" />
   </ItemGroup>
   <ItemGroup>

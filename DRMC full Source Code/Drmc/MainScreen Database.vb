@@ -10,7 +10,7 @@ Public Class MainScreen_Database
         MainFrm = Me
     End Sub
 
-    Private Sub AxShockwaveFlash1_FSCommand(ByVal sender As Object, ByVal e As AxShockwaveFlashObjects._IShockwaveFlashEvents_FSCommandEvent) Handles AxShockwaveFlash1.FSCommand
+    Private Sub AxShockwaveFlash1_FSCommand(ByVal sender As Object, ByVal e As AxShockwaveFlashObjects._IShockwaveFlashEvents_FSCommandEvent)
 
         Select Case e.command
 
@@ -135,9 +135,6 @@ Public Class MainScreen_Database
 
     End Sub
 
-    Private Sub AxShockwaveFlash1_Enter_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles AxShockwaveFlash1.Enter
-
-    End Sub
 
     Private Sub UserAccountsToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         Admins.Show()

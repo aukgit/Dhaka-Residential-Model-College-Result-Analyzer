@@ -19,295 +19,295 @@ Partial Class FullViewResult
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.components = New System.ComponentModel.Container
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FullViewResult))
-        Me.TabControl1 = New System.Windows.Forms.TabControl
-        Me.TabPage1 = New System.Windows.Forms.TabPage
-        Me.ResultView = New System.Windows.Forms.DataGridView
-        Me.CollegenoDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.Sub1DataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.Sub2DataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.Sub3DataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.Sub4DataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.Sub5DataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.Sub6DataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.Sub7DataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.Sub8DataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.Sub9DataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.Sub10DataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.Sub11DataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.Sub12DataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.TabControl1 = New System.Windows.Forms.TabControl()
+        Me.TabPage1 = New System.Windows.Forms.TabPage()
+        Me.ResultView = New System.Windows.Forms.DataGridView()
+        Me.CollegenoDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Sub1DataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Sub2DataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Sub3DataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Sub4DataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Sub5DataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Sub6DataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Sub7DataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Sub8DataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Sub9DataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Sub10DataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Sub11DataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Sub12DataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.ContextMenuStrip1 = New System.Windows.Forms.ContextMenuStrip(Me.components)
-        Me.SaveAllToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
-        Me.SelectedColumnFreezeToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
-        Me.SelectedColumnUnFreezeToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
-        Me.FilterToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
-        Me.ToolStripTextBox14 = New System.Windows.Forms.ToolStripTextBox
-        Me.FilterInSelectedColumnToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
-        Me.FilterSelectedTxtInColumnToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
-        Me.RemoveFilterToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
+        Me.SaveAllToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SelectedColumnFreezeToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SelectedColumnUnFreezeToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.FilterToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripTextBox14 = New System.Windows.Forms.ToolStripTextBox()
+        Me.FilterInSelectedColumnToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.FilterSelectedTxtInColumnToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.RemoveFilterToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Acc2ConvertBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-        Me.AuksoftDataSet1 = New AukSoftware.auksoftDataSet1
+        Me.AuksoftDataSet1 = New AukSoftware.AuksoftDataSet1()
         Me.Result = New System.Windows.Forms.BindingNavigator(Me.components)
-        Me.BindingNavigatorCountItem = New System.Windows.Forms.ToolStripLabel
-        Me.BindingNavigatorDeleteItem = New System.Windows.Forms.ToolStripButton
-        Me.BindingNavigatorMoveFirstItem = New System.Windows.Forms.ToolStripButton
-        Me.BindingNavigatorMovePreviousItem = New System.Windows.Forms.ToolStripButton
-        Me.BindingNavigatorSeparator = New System.Windows.Forms.ToolStripSeparator
-        Me.BindingNavigatorPositionItem = New System.Windows.Forms.ToolStripTextBox
-        Me.BindingNavigatorSeparator1 = New System.Windows.Forms.ToolStripSeparator
-        Me.BindingNavigatorMoveNextItem = New System.Windows.Forms.ToolStripButton
-        Me.BindingNavigatorMoveLastItem = New System.Windows.Forms.ToolStripButton
-        Me.BindingNavigatorSeparator2 = New System.Windows.Forms.ToolStripSeparator
-        Me.ToolStripButton20 = New System.Windows.Forms.ToolStripButton
-        Me.ToolStripButton1 = New System.Windows.Forms.ToolStripButton
-        Me.ToolStripSeparator10 = New System.Windows.Forms.ToolStripSeparator
-        Me.ToolStripComboBox1 = New System.Windows.Forms.ToolStripComboBox
-        Me.ToolStripLabel4 = New System.Windows.Forms.ToolStripLabel
-        Me.ToolStripLabel15 = New System.Windows.Forms.ToolStripLabel
-        Me.ToolStripTextBox13 = New System.Windows.Forms.ToolStripTextBox
-        Me.ToolStripSeparator31 = New System.Windows.Forms.ToolStripSeparator
-        Me.ToolStripButton59 = New System.Windows.Forms.ToolStripButton
-        Me.TabPage2 = New System.Windows.Forms.TabPage
-        Me.Subjview = New System.Windows.Forms.DataGridView
-        Me.CollegenoDataGridViewTextBoxColumn1 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.Sub1DataGridViewTextBoxColumn1 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.Sub2DataGridViewTextBoxColumn1 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.Sub3DataGridViewTextBoxColumn1 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.Sub4DataGridViewTextBoxColumn1 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.Sub5DataGridViewTextBoxColumn1 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.Sub6DataGridViewTextBoxColumn1 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.Sub7DataGridViewTextBoxColumn1 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.Sub8DataGridViewTextBoxColumn1 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.Sub9DataGridViewTextBoxColumn1 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.Sub10DataGridViewTextBoxColumn1 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.Sub11DataGridViewTextBoxColumn1 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.Sub12DataGridViewTextBoxColumn1 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.BindingNavigatorCountItem = New System.Windows.Forms.ToolStripLabel()
+        Me.BindingNavigatorDeleteItem = New System.Windows.Forms.ToolStripButton()
+        Me.BindingNavigatorMoveFirstItem = New System.Windows.Forms.ToolStripButton()
+        Me.BindingNavigatorMovePreviousItem = New System.Windows.Forms.ToolStripButton()
+        Me.BindingNavigatorSeparator = New System.Windows.Forms.ToolStripSeparator()
+        Me.BindingNavigatorPositionItem = New System.Windows.Forms.ToolStripTextBox()
+        Me.BindingNavigatorSeparator1 = New System.Windows.Forms.ToolStripSeparator()
+        Me.BindingNavigatorMoveNextItem = New System.Windows.Forms.ToolStripButton()
+        Me.BindingNavigatorMoveLastItem = New System.Windows.Forms.ToolStripButton()
+        Me.BindingNavigatorSeparator2 = New System.Windows.Forms.ToolStripSeparator()
+        Me.ToolStripButton20 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton1 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripSeparator10 = New System.Windows.Forms.ToolStripSeparator()
+        Me.ToolStripComboBox1 = New System.Windows.Forms.ToolStripComboBox()
+        Me.ToolStripLabel4 = New System.Windows.Forms.ToolStripLabel()
+        Me.ToolStripLabel15 = New System.Windows.Forms.ToolStripLabel()
+        Me.ToolStripTextBox13 = New System.Windows.Forms.ToolStripTextBox()
+        Me.ToolStripSeparator31 = New System.Windows.Forms.ToolStripSeparator()
+        Me.ToolStripButton59 = New System.Windows.Forms.ToolStripButton()
+        Me.TabPage2 = New System.Windows.Forms.TabPage()
+        Me.Subjview = New System.Windows.Forms.DataGridView()
+        Me.CollegenoDataGridViewTextBoxColumn1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Sub1DataGridViewTextBoxColumn1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Sub2DataGridViewTextBoxColumn1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Sub3DataGridViewTextBoxColumn1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Sub4DataGridViewTextBoxColumn1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Sub5DataGridViewTextBoxColumn1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Sub6DataGridViewTextBoxColumn1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Sub7DataGridViewTextBoxColumn1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Sub8DataGridViewTextBoxColumn1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Sub9DataGridViewTextBoxColumn1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Sub10DataGridViewTextBoxColumn1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Sub11DataGridViewTextBoxColumn1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Sub12DataGridViewTextBoxColumn1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.SubjectiveBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.BindingNavigator1 = New System.Windows.Forms.BindingNavigator(Me.components)
-        Me.ToolStripLabel1 = New System.Windows.Forms.ToolStripLabel
-        Me.ToolStripButton2 = New System.Windows.Forms.ToolStripButton
-        Me.ToolStripButton3 = New System.Windows.Forms.ToolStripButton
-        Me.ToolStripButton4 = New System.Windows.Forms.ToolStripButton
-        Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator
-        Me.ToolStripTextBox1 = New System.Windows.Forms.ToolStripTextBox
-        Me.ToolStripSeparator2 = New System.Windows.Forms.ToolStripSeparator
-        Me.ToolStripButton5 = New System.Windows.Forms.ToolStripButton
-        Me.ToolStripButton6 = New System.Windows.Forms.ToolStripButton
-        Me.ToolStripSeparator3 = New System.Windows.Forms.ToolStripSeparator
-        Me.ToolStripButton7 = New System.Windows.Forms.ToolStripButton
-        Me.ToolStripButton21 = New System.Windows.Forms.ToolStripButton
-        Me.ToolStripSeparator30 = New System.Windows.Forms.ToolStripSeparator
-        Me.ToolStripTextBox12 = New System.Windows.Forms.ToolStripTextBox
-        Me.ToolStripLabel14 = New System.Windows.Forms.ToolStripLabel
-        Me.TabPage3 = New System.Windows.Forms.TabPage
-        Me.Objview = New System.Windows.Forms.DataGridView
-        Me.CollegenoDataGridViewTextBoxColumn2 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.Sub1DataGridViewTextBoxColumn2 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.Sub2DataGridViewTextBoxColumn2 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.Sub3DataGridViewTextBoxColumn2 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.Sub4DataGridViewTextBoxColumn2 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.Sub5DataGridViewTextBoxColumn2 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.Sub6DataGridViewTextBoxColumn2 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.Sub7DataGridViewTextBoxColumn2 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.Sub8DataGridViewTextBoxColumn2 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.Sub9DataGridViewTextBoxColumn2 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.Sub10DataGridViewTextBoxColumn2 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.Sub11DataGridViewTextBoxColumn2 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.Sub12DataGridViewTextBoxColumn2 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.ToolStripLabel1 = New System.Windows.Forms.ToolStripLabel()
+        Me.ToolStripButton2 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton3 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton4 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
+        Me.ToolStripTextBox1 = New System.Windows.Forms.ToolStripTextBox()
+        Me.ToolStripSeparator2 = New System.Windows.Forms.ToolStripSeparator()
+        Me.ToolStripButton5 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton6 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripSeparator3 = New System.Windows.Forms.ToolStripSeparator()
+        Me.ToolStripButton7 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton21 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripSeparator30 = New System.Windows.Forms.ToolStripSeparator()
+        Me.ToolStripTextBox12 = New System.Windows.Forms.ToolStripTextBox()
+        Me.ToolStripLabel14 = New System.Windows.Forms.ToolStripLabel()
+        Me.TabPage3 = New System.Windows.Forms.TabPage()
+        Me.Objview = New System.Windows.Forms.DataGridView()
+        Me.CollegenoDataGridViewTextBoxColumn2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Sub1DataGridViewTextBoxColumn2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Sub2DataGridViewTextBoxColumn2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Sub3DataGridViewTextBoxColumn2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Sub4DataGridViewTextBoxColumn2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Sub5DataGridViewTextBoxColumn2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Sub6DataGridViewTextBoxColumn2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Sub7DataGridViewTextBoxColumn2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Sub8DataGridViewTextBoxColumn2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Sub9DataGridViewTextBoxColumn2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Sub10DataGridViewTextBoxColumn2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Sub11DataGridViewTextBoxColumn2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Sub12DataGridViewTextBoxColumn2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.ObjectiveBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.BindingNavigator2 = New System.Windows.Forms.BindingNavigator(Me.components)
-        Me.ToolStripLabel2 = New System.Windows.Forms.ToolStripLabel
-        Me.ToolStripButton8 = New System.Windows.Forms.ToolStripButton
-        Me.ToolStripButton9 = New System.Windows.Forms.ToolStripButton
-        Me.ToolStripButton10 = New System.Windows.Forms.ToolStripButton
-        Me.ToolStripSeparator4 = New System.Windows.Forms.ToolStripSeparator
-        Me.ToolStripTextBox2 = New System.Windows.Forms.ToolStripTextBox
-        Me.ToolStripSeparator5 = New System.Windows.Forms.ToolStripSeparator
-        Me.ToolStripButton11 = New System.Windows.Forms.ToolStripButton
-        Me.ToolStripButton12 = New System.Windows.Forms.ToolStripButton
-        Me.ToolStripSeparator6 = New System.Windows.Forms.ToolStripSeparator
-        Me.ToolStripButton13 = New System.Windows.Forms.ToolStripButton
-        Me.ToolStripButton22 = New System.Windows.Forms.ToolStripButton
-        Me.ToolStripSeparator29 = New System.Windows.Forms.ToolStripSeparator
-        Me.ToolStripTextBox11 = New System.Windows.Forms.ToolStripTextBox
-        Me.ToolStripLabel13 = New System.Windows.Forms.ToolStripLabel
-        Me.TabPage4 = New System.Windows.Forms.TabPage
-        Me.Grdview = New System.Windows.Forms.DataGridView
-        Me.CollegenoDataGridViewTextBoxColumn3 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.Sub1DataGridViewTextBoxColumn3 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.Sub2DataGridViewTextBoxColumn3 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.Sub3DataGridViewTextBoxColumn3 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.Sub4DataGridViewTextBoxColumn3 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.Sub5DataGridViewTextBoxColumn3 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.Sub6DataGridViewTextBoxColumn3 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.Sub7DataGridViewTextBoxColumn3 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.Sub8DataGridViewTextBoxColumn3 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.Sub9DataGridViewTextBoxColumn3 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.Sub10DataGridViewTextBoxColumn3 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.Sub12DataGridViewTextBoxColumn3 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.TotalGradingDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.GradingMarksDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.TotalDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.ToolStripLabel2 = New System.Windows.Forms.ToolStripLabel()
+        Me.ToolStripButton8 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton9 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton10 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripSeparator4 = New System.Windows.Forms.ToolStripSeparator()
+        Me.ToolStripTextBox2 = New System.Windows.Forms.ToolStripTextBox()
+        Me.ToolStripSeparator5 = New System.Windows.Forms.ToolStripSeparator()
+        Me.ToolStripButton11 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton12 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripSeparator6 = New System.Windows.Forms.ToolStripSeparator()
+        Me.ToolStripButton13 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton22 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripSeparator29 = New System.Windows.Forms.ToolStripSeparator()
+        Me.ToolStripTextBox11 = New System.Windows.Forms.ToolStripTextBox()
+        Me.ToolStripLabel13 = New System.Windows.Forms.ToolStripLabel()
+        Me.TabPage4 = New System.Windows.Forms.TabPage()
+        Me.Grdview = New System.Windows.Forms.DataGridView()
+        Me.CollegenoDataGridViewTextBoxColumn3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Sub1DataGridViewTextBoxColumn3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Sub2DataGridViewTextBoxColumn3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Sub3DataGridViewTextBoxColumn3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Sub4DataGridViewTextBoxColumn3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Sub5DataGridViewTextBoxColumn3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Sub6DataGridViewTextBoxColumn3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Sub7DataGridViewTextBoxColumn3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Sub8DataGridViewTextBoxColumn3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Sub9DataGridViewTextBoxColumn3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Sub10DataGridViewTextBoxColumn3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Sub12DataGridViewTextBoxColumn3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.TotalGradingDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.GradingMarksDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.TotalDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.GradingBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.BindingNavigator3 = New System.Windows.Forms.BindingNavigator(Me.components)
-        Me.ToolStripLabel3 = New System.Windows.Forms.ToolStripLabel
-        Me.ToolStripButton14 = New System.Windows.Forms.ToolStripButton
-        Me.ToolStripButton15 = New System.Windows.Forms.ToolStripButton
-        Me.ToolStripButton16 = New System.Windows.Forms.ToolStripButton
-        Me.ToolStripSeparator7 = New System.Windows.Forms.ToolStripSeparator
-        Me.ToolStripTextBox3 = New System.Windows.Forms.ToolStripTextBox
-        Me.ToolStripSeparator8 = New System.Windows.Forms.ToolStripSeparator
-        Me.ToolStripButton17 = New System.Windows.Forms.ToolStripButton
-        Me.ToolStripButton18 = New System.Windows.Forms.ToolStripButton
-        Me.ToolStripSeparator9 = New System.Windows.Forms.ToolStripSeparator
-        Me.ToolStripButton19 = New System.Windows.Forms.ToolStripButton
-        Me.ToolStripButton23 = New System.Windows.Forms.ToolStripButton
-        Me.ToolStripSeparator28 = New System.Windows.Forms.ToolStripSeparator
-        Me.ToolStripTextBox10 = New System.Windows.Forms.ToolStripTextBox
-        Me.ToolStripLabel12 = New System.Windows.Forms.ToolStripLabel
-        Me.TabPage9 = New System.Windows.Forms.TabPage
-        Me.DataGridView5 = New System.Windows.Forms.DataGridView
+        Me.ToolStripLabel3 = New System.Windows.Forms.ToolStripLabel()
+        Me.ToolStripButton14 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton15 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton16 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripSeparator7 = New System.Windows.Forms.ToolStripSeparator()
+        Me.ToolStripTextBox3 = New System.Windows.Forms.ToolStripTextBox()
+        Me.ToolStripSeparator8 = New System.Windows.Forms.ToolStripSeparator()
+        Me.ToolStripButton17 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton18 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripSeparator9 = New System.Windows.Forms.ToolStripSeparator()
+        Me.ToolStripButton19 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton23 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripSeparator28 = New System.Windows.Forms.ToolStripSeparator()
+        Me.ToolStripTextBox10 = New System.Windows.Forms.ToolStripTextBox()
+        Me.ToolStripLabel12 = New System.Windows.Forms.ToolStripLabel()
+        Me.TabPage9 = New System.Windows.Forms.TabPage()
+        Me.DataGridView5 = New System.Windows.Forms.DataGridView()
         Me.BindingNavigator8 = New System.Windows.Forms.BindingNavigator(Me.components)
-        Me.ToolStripLabel10 = New System.Windows.Forms.ToolStripLabel
-        Me.ToolStripButton52 = New System.Windows.Forms.ToolStripButton
-        Me.ToolStripButton53 = New System.Windows.Forms.ToolStripButton
-        Me.ToolStripButton54 = New System.Windows.Forms.ToolStripButton
-        Me.ToolStripSeparator24 = New System.Windows.Forms.ToolStripSeparator
-        Me.ToolStripTextBox8 = New System.Windows.Forms.ToolStripTextBox
-        Me.ToolStripSeparator25 = New System.Windows.Forms.ToolStripSeparator
-        Me.ToolStripButton55 = New System.Windows.Forms.ToolStripButton
-        Me.ToolStripButton56 = New System.Windows.Forms.ToolStripButton
-        Me.ToolStripSeparator26 = New System.Windows.Forms.ToolStripSeparator
-        Me.ToolStripButton57 = New System.Windows.Forms.ToolStripButton
-        Me.ToolStripButton58 = New System.Windows.Forms.ToolStripButton
-        Me.ToolStripSeparator27 = New System.Windows.Forms.ToolStripSeparator
-        Me.ToolStripTextBox9 = New System.Windows.Forms.ToolStripTextBox
-        Me.ToolStripLabel11 = New System.Windows.Forms.ToolStripLabel
-        Me.TabPage5 = New System.Windows.Forms.TabPage
-        Me.DataGridView1 = New System.Windows.Forms.DataGridView
-        Me.DataGridViewTextBoxColumn1 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.DataGridViewTextBoxColumn2 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.DataGridViewTextBoxColumn3 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.DataGridViewTextBoxColumn4 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.DataGridViewTextBoxColumn5 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.DataGridViewTextBoxColumn6 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.DataGridViewTextBoxColumn7 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.DataGridViewTextBoxColumn8 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.DataGridViewTextBoxColumn9 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.DataGridViewTextBoxColumn10 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.DataGridViewTextBoxColumn11 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.DataGridViewTextBoxColumn12 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.DataGridViewTextBoxColumn13 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.ToolStripLabel10 = New System.Windows.Forms.ToolStripLabel()
+        Me.ToolStripButton52 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton53 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton54 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripSeparator24 = New System.Windows.Forms.ToolStripSeparator()
+        Me.ToolStripTextBox8 = New System.Windows.Forms.ToolStripTextBox()
+        Me.ToolStripSeparator25 = New System.Windows.Forms.ToolStripSeparator()
+        Me.ToolStripButton55 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton56 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripSeparator26 = New System.Windows.Forms.ToolStripSeparator()
+        Me.ToolStripButton57 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton58 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripSeparator27 = New System.Windows.Forms.ToolStripSeparator()
+        Me.ToolStripTextBox9 = New System.Windows.Forms.ToolStripTextBox()
+        Me.ToolStripLabel11 = New System.Windows.Forms.ToolStripLabel()
+        Me.TabPage5 = New System.Windows.Forms.TabPage()
+        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+        Me.DataGridViewTextBoxColumn1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn5 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn6 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn7 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn8 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn9 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn10 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn11 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn12 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn13 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.BindingNavigator4 = New System.Windows.Forms.BindingNavigator(Me.components)
-        Me.ToolStripLabel5 = New System.Windows.Forms.ToolStripLabel
-        Me.ToolStripButton24 = New System.Windows.Forms.ToolStripButton
-        Me.ToolStripButton25 = New System.Windows.Forms.ToolStripButton
-        Me.ToolStripButton26 = New System.Windows.Forms.ToolStripButton
-        Me.ToolStripSeparator11 = New System.Windows.Forms.ToolStripSeparator
-        Me.ToolStripTextBox4 = New System.Windows.Forms.ToolStripTextBox
-        Me.ToolStripSeparator12 = New System.Windows.Forms.ToolStripSeparator
-        Me.ToolStripButton27 = New System.Windows.Forms.ToolStripButton
-        Me.ToolStripButton28 = New System.Windows.Forms.ToolStripButton
-        Me.ToolStripSeparator13 = New System.Windows.Forms.ToolStripSeparator
-        Me.ToolStripButton29 = New System.Windows.Forms.ToolStripButton
-        Me.ToolStripButton30 = New System.Windows.Forms.ToolStripButton
-        Me.ToolStripSeparator14 = New System.Windows.Forms.ToolStripSeparator
-        Me.ToolStripComboBox2 = New System.Windows.Forms.ToolStripComboBox
-        Me.ToolStripLabel6 = New System.Windows.Forms.ToolStripLabel
-        Me.TabPage6 = New System.Windows.Forms.TabPage
-        Me.DataGridView2 = New System.Windows.Forms.DataGridView
-        Me.DataGridViewTextBoxColumn14 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.DataGridViewTextBoxColumn15 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.DataGridViewTextBoxColumn16 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.DataGridViewTextBoxColumn17 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.DataGridViewTextBoxColumn18 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.DataGridViewTextBoxColumn19 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.DataGridViewTextBoxColumn20 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.DataGridViewTextBoxColumn21 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.DataGridViewTextBoxColumn22 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.DataGridViewTextBoxColumn23 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.DataGridViewTextBoxColumn24 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.DataGridViewTextBoxColumn25 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.DataGridViewTextBoxColumn26 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.ToolStripLabel5 = New System.Windows.Forms.ToolStripLabel()
+        Me.ToolStripButton24 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton25 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton26 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripSeparator11 = New System.Windows.Forms.ToolStripSeparator()
+        Me.ToolStripTextBox4 = New System.Windows.Forms.ToolStripTextBox()
+        Me.ToolStripSeparator12 = New System.Windows.Forms.ToolStripSeparator()
+        Me.ToolStripButton27 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton28 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripSeparator13 = New System.Windows.Forms.ToolStripSeparator()
+        Me.ToolStripButton29 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton30 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripSeparator14 = New System.Windows.Forms.ToolStripSeparator()
+        Me.ToolStripComboBox2 = New System.Windows.Forms.ToolStripComboBox()
+        Me.ToolStripLabel6 = New System.Windows.Forms.ToolStripLabel()
+        Me.TabPage6 = New System.Windows.Forms.TabPage()
+        Me.DataGridView2 = New System.Windows.Forms.DataGridView()
+        Me.DataGridViewTextBoxColumn14 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn15 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn16 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn17 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn18 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn19 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn20 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn21 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn22 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn23 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn24 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn25 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn26 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.BindingNavigator5 = New System.Windows.Forms.BindingNavigator(Me.components)
-        Me.ToolStripLabel7 = New System.Windows.Forms.ToolStripLabel
-        Me.ToolStripButton31 = New System.Windows.Forms.ToolStripButton
-        Me.ToolStripButton32 = New System.Windows.Forms.ToolStripButton
-        Me.ToolStripButton33 = New System.Windows.Forms.ToolStripButton
-        Me.ToolStripSeparator15 = New System.Windows.Forms.ToolStripSeparator
-        Me.ToolStripTextBox5 = New System.Windows.Forms.ToolStripTextBox
-        Me.ToolStripSeparator16 = New System.Windows.Forms.ToolStripSeparator
-        Me.ToolStripButton34 = New System.Windows.Forms.ToolStripButton
-        Me.ToolStripButton35 = New System.Windows.Forms.ToolStripButton
-        Me.ToolStripSeparator17 = New System.Windows.Forms.ToolStripSeparator
-        Me.ToolStripButton36 = New System.Windows.Forms.ToolStripButton
-        Me.ToolStripButton37 = New System.Windows.Forms.ToolStripButton
-        Me.TabPage7 = New System.Windows.Forms.TabPage
-        Me.DataGridView3 = New System.Windows.Forms.DataGridView
-        Me.DataGridViewTextBoxColumn27 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.DataGridViewTextBoxColumn28 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.DataGridViewTextBoxColumn29 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.DataGridViewTextBoxColumn30 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.DataGridViewTextBoxColumn31 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.DataGridViewTextBoxColumn32 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.DataGridViewTextBoxColumn33 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.DataGridViewTextBoxColumn34 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.DataGridViewTextBoxColumn35 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.DataGridViewTextBoxColumn36 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.DataGridViewTextBoxColumn37 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.DataGridViewTextBoxColumn38 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.DataGridViewTextBoxColumn39 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.ToolStripLabel7 = New System.Windows.Forms.ToolStripLabel()
+        Me.ToolStripButton31 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton32 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton33 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripSeparator15 = New System.Windows.Forms.ToolStripSeparator()
+        Me.ToolStripTextBox5 = New System.Windows.Forms.ToolStripTextBox()
+        Me.ToolStripSeparator16 = New System.Windows.Forms.ToolStripSeparator()
+        Me.ToolStripButton34 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton35 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripSeparator17 = New System.Windows.Forms.ToolStripSeparator()
+        Me.ToolStripButton36 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton37 = New System.Windows.Forms.ToolStripButton()
+        Me.TabPage7 = New System.Windows.Forms.TabPage()
+        Me.DataGridView3 = New System.Windows.Forms.DataGridView()
+        Me.DataGridViewTextBoxColumn27 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn28 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn29 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn30 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn31 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn32 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn33 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn34 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn35 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn36 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn37 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn38 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn39 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.BindingNavigator6 = New System.Windows.Forms.BindingNavigator(Me.components)
-        Me.ToolStripLabel8 = New System.Windows.Forms.ToolStripLabel
-        Me.ToolStripButton38 = New System.Windows.Forms.ToolStripButton
-        Me.ToolStripButton39 = New System.Windows.Forms.ToolStripButton
-        Me.ToolStripButton40 = New System.Windows.Forms.ToolStripButton
-        Me.ToolStripSeparator18 = New System.Windows.Forms.ToolStripSeparator
-        Me.ToolStripTextBox6 = New System.Windows.Forms.ToolStripTextBox
-        Me.ToolStripSeparator19 = New System.Windows.Forms.ToolStripSeparator
-        Me.ToolStripButton41 = New System.Windows.Forms.ToolStripButton
-        Me.ToolStripButton42 = New System.Windows.Forms.ToolStripButton
-        Me.ToolStripSeparator20 = New System.Windows.Forms.ToolStripSeparator
-        Me.ToolStripButton43 = New System.Windows.Forms.ToolStripButton
-        Me.ToolStripButton44 = New System.Windows.Forms.ToolStripButton
-        Me.TabPage8 = New System.Windows.Forms.TabPage
-        Me.DataGridView4 = New System.Windows.Forms.DataGridView
-        Me.DataGridViewTextBoxColumn40 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.DataGridViewTextBoxColumn41 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.DataGridViewTextBoxColumn42 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.DataGridViewTextBoxColumn43 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.DataGridViewTextBoxColumn44 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.DataGridViewTextBoxColumn45 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.DataGridViewTextBoxColumn46 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.DataGridViewTextBoxColumn47 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.DataGridViewTextBoxColumn48 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.DataGridViewTextBoxColumn49 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.DataGridViewTextBoxColumn50 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.DataGridViewTextBoxColumn51 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.DataGridViewTextBoxColumn52 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.DataGridViewTextBoxColumn53 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.DataGridViewTextBoxColumn54 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.ToolStripLabel8 = New System.Windows.Forms.ToolStripLabel()
+        Me.ToolStripButton38 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton39 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton40 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripSeparator18 = New System.Windows.Forms.ToolStripSeparator()
+        Me.ToolStripTextBox6 = New System.Windows.Forms.ToolStripTextBox()
+        Me.ToolStripSeparator19 = New System.Windows.Forms.ToolStripSeparator()
+        Me.ToolStripButton41 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton42 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripSeparator20 = New System.Windows.Forms.ToolStripSeparator()
+        Me.ToolStripButton43 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton44 = New System.Windows.Forms.ToolStripButton()
+        Me.TabPage8 = New System.Windows.Forms.TabPage()
+        Me.DataGridView4 = New System.Windows.Forms.DataGridView()
+        Me.DataGridViewTextBoxColumn40 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn41 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn42 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn43 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn44 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn45 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn46 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn47 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn48 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn49 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn50 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn51 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn52 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn53 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn54 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.BindingNavigator7 = New System.Windows.Forms.BindingNavigator(Me.components)
-        Me.ToolStripLabel9 = New System.Windows.Forms.ToolStripLabel
-        Me.ToolStripButton45 = New System.Windows.Forms.ToolStripButton
-        Me.ToolStripButton46 = New System.Windows.Forms.ToolStripButton
-        Me.ToolStripButton47 = New System.Windows.Forms.ToolStripButton
-        Me.ToolStripSeparator21 = New System.Windows.Forms.ToolStripSeparator
-        Me.ToolStripTextBox7 = New System.Windows.Forms.ToolStripTextBox
-        Me.ToolStripSeparator22 = New System.Windows.Forms.ToolStripSeparator
-        Me.ToolStripButton48 = New System.Windows.Forms.ToolStripButton
-        Me.ToolStripButton49 = New System.Windows.Forms.ToolStripButton
-        Me.ToolStripSeparator23 = New System.Windows.Forms.ToolStripSeparator
-        Me.ToolStripButton50 = New System.Windows.Forms.ToolStripButton
-        Me.ToolStripButton51 = New System.Windows.Forms.ToolStripButton
-        Me.Acc2ConvertTableAdapter = New AukSoftware.auksoftDataSet1TableAdapters.Acc2ConvertTableAdapter
-        Me.SubjectiveTableAdapter = New AukSoftware.auksoftDataSet1TableAdapters.SubjectiveTableAdapter
-        Me.ObjectiveTableAdapter = New AukSoftware.auksoftDataSet1TableAdapters.ObjectiveTableAdapter
-        Me.GradingTableAdapter = New AukSoftware.auksoftDataSet1TableAdapters.GradingTableAdapter
-        Me.ScienceTableAdapter1 = New AukSoftware.auksoftDataSet1TableAdapters.ScienceTableAdapter
-        Me.HumanTableAdapter1 = New AukSoftware.auksoftDataSet1TableAdapters.HumanTableAdapter
-        Me.CommerceTableAdapter1 = New AukSoftware.auksoftDataSet1TableAdapters.CommerceTableAdapter
+        Me.ToolStripLabel9 = New System.Windows.Forms.ToolStripLabel()
+        Me.ToolStripButton45 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton46 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton47 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripSeparator21 = New System.Windows.Forms.ToolStripSeparator()
+        Me.ToolStripTextBox7 = New System.Windows.Forms.ToolStripTextBox()
+        Me.ToolStripSeparator22 = New System.Windows.Forms.ToolStripSeparator()
+        Me.ToolStripButton48 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton49 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripSeparator23 = New System.Windows.Forms.ToolStripSeparator()
+        Me.ToolStripButton50 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton51 = New System.Windows.Forms.ToolStripButton()
+        Me.Acc2ConvertTableAdapter = New AukSoftware.AuksoftDataSet1TableAdapters.Acc2ConvertTableAdapter()
+        Me.SubjectiveTableAdapter = New AukSoftware.AuksoftDataSet1TableAdapters.SubjectiveTableAdapter()
+        Me.ObjectiveTableAdapter = New AukSoftware.AuksoftDataSet1TableAdapters.ObjectiveTableAdapter()
+        Me.GradingTableAdapter = New AukSoftware.AuksoftDataSet1TableAdapters.GradingTableAdapter()
+        Me.ScienceTableAdapter1 = New AukSoftware.AuksoftDataSet1TableAdapters.ScienceTableAdapter()
+        Me.HumanTableAdapter1 = New AukSoftware.AuksoftDataSet1TableAdapters.HumanTableAdapter()
+        Me.CommerceTableAdapter1 = New AukSoftware.AuksoftDataSet1TableAdapters.CommerceTableAdapter()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         CType(Me.ResultView, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -498,50 +498,50 @@ Partial Class FullViewResult
         Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
         Me.ContextMenuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System
         Me.ContextMenuStrip1.ShowImageMargin = False
-        Me.ContextMenuStrip1.Size = New System.Drawing.Size(255, 114)
+        Me.ContextMenuStrip1.Size = New System.Drawing.Size(262, 92)
         Me.ContextMenuStrip1.Text = "AukSoft"
         '
         'SaveAllToolStripMenuItem
         '
         Me.SaveAllToolStripMenuItem.Name = "SaveAllToolStripMenuItem"
         Me.SaveAllToolStripMenuItem.ShortcutKeys = CType(((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.Shift) _
-                    Or System.Windows.Forms.Keys.S), System.Windows.Forms.Keys)
-        Me.SaveAllToolStripMenuItem.Size = New System.Drawing.Size(254, 22)
+            Or System.Windows.Forms.Keys.S), System.Windows.Forms.Keys)
+        Me.SaveAllToolStripMenuItem.Size = New System.Drawing.Size(261, 22)
         Me.SaveAllToolStripMenuItem.Text = "Save all"
         '
         'SelectedColumnFreezeToolStripMenuItem
         '
         Me.SelectedColumnFreezeToolStripMenuItem.Name = "SelectedColumnFreezeToolStripMenuItem"
         Me.SelectedColumnFreezeToolStripMenuItem.ShortcutKeys = CType(((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.Shift) _
-                    Or System.Windows.Forms.Keys.F), System.Windows.Forms.Keys)
-        Me.SelectedColumnFreezeToolStripMenuItem.Size = New System.Drawing.Size(254, 22)
+            Or System.Windows.Forms.Keys.F), System.Windows.Forms.Keys)
+        Me.SelectedColumnFreezeToolStripMenuItem.Size = New System.Drawing.Size(261, 22)
         Me.SelectedColumnFreezeToolStripMenuItem.Text = "Selected ColumnFreeze"
         '
         'SelectedColumnUnFreezeToolStripMenuItem
         '
         Me.SelectedColumnUnFreezeToolStripMenuItem.Name = "SelectedColumnUnFreezeToolStripMenuItem"
         Me.SelectedColumnUnFreezeToolStripMenuItem.ShortcutKeys = CType(((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.Shift) _
-                    Or System.Windows.Forms.Keys.U), System.Windows.Forms.Keys)
-        Me.SelectedColumnUnFreezeToolStripMenuItem.Size = New System.Drawing.Size(254, 22)
+            Or System.Windows.Forms.Keys.U), System.Windows.Forms.Keys)
+        Me.SelectedColumnUnFreezeToolStripMenuItem.Size = New System.Drawing.Size(261, 22)
         Me.SelectedColumnUnFreezeToolStripMenuItem.Text = "Selected ColumnUnFreeze"
         '
         'FilterToolStripMenuItem
         '
         Me.FilterToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripTextBox14, Me.FilterInSelectedColumnToolStripMenuItem, Me.FilterSelectedTxtInColumnToolStripMenuItem, Me.RemoveFilterToolStripMenuItem})
         Me.FilterToolStripMenuItem.Name = "FilterToolStripMenuItem"
-        Me.FilterToolStripMenuItem.Size = New System.Drawing.Size(254, 22)
+        Me.FilterToolStripMenuItem.Size = New System.Drawing.Size(261, 22)
         Me.FilterToolStripMenuItem.Text = "Filter"
         '
         'ToolStripTextBox14
         '
         Me.ToolStripTextBox14.Name = "ToolStripTextBox14"
-        Me.ToolStripTextBox14.Size = New System.Drawing.Size(100, 21)
+        Me.ToolStripTextBox14.Size = New System.Drawing.Size(100, 23)
         '
         'FilterInSelectedColumnToolStripMenuItem
         '
         Me.FilterInSelectedColumnToolStripMenuItem.Image = Global.AukSoftware.My.Resources.VSImages.Filter2HS
         Me.FilterInSelectedColumnToolStripMenuItem.Name = "FilterInSelectedColumnToolStripMenuItem"
-        Me.FilterInSelectedColumnToolStripMenuItem.Size = New System.Drawing.Size(282, 22)
+        Me.FilterInSelectedColumnToolStripMenuItem.Size = New System.Drawing.Size(288, 22)
         Me.FilterInSelectedColumnToolStripMenuItem.Text = "FilterInSelected Column(TextBox Text) "
         '
         'FilterSelectedTxtInColumnToolStripMenuItem
@@ -549,8 +549,8 @@ Partial Class FullViewResult
         Me.FilterSelectedTxtInColumnToolStripMenuItem.Image = Global.AukSoftware.My.Resources.VSImages.Filter2HS
         Me.FilterSelectedTxtInColumnToolStripMenuItem.Name = "FilterSelectedTxtInColumnToolStripMenuItem"
         Me.FilterSelectedTxtInColumnToolStripMenuItem.ShortcutKeys = CType(((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.Shift) _
-                    Or System.Windows.Forms.Keys.F), System.Windows.Forms.Keys)
-        Me.FilterSelectedTxtInColumnToolStripMenuItem.Size = New System.Drawing.Size(282, 22)
+            Or System.Windows.Forms.Keys.F), System.Windows.Forms.Keys)
+        Me.FilterSelectedTxtInColumnToolStripMenuItem.Size = New System.Drawing.Size(288, 22)
         Me.FilterSelectedTxtInColumnToolStripMenuItem.Text = "FilterSelectedTxt InColumn"
         '
         'RemoveFilterToolStripMenuItem
@@ -558,8 +558,8 @@ Partial Class FullViewResult
         Me.RemoveFilterToolStripMenuItem.Image = Global.AukSoftware.My.Resources.VSImages.DeleteHS
         Me.RemoveFilterToolStripMenuItem.Name = "RemoveFilterToolStripMenuItem"
         Me.RemoveFilterToolStripMenuItem.ShortcutKeys = CType(((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.Alt) _
-                    Or System.Windows.Forms.Keys.R), System.Windows.Forms.Keys)
-        Me.RemoveFilterToolStripMenuItem.Size = New System.Drawing.Size(282, 22)
+            Or System.Windows.Forms.Keys.R), System.Windows.Forms.Keys)
+        Me.RemoveFilterToolStripMenuItem.Size = New System.Drawing.Size(288, 22)
         Me.RemoveFilterToolStripMenuItem.Text = "Remove Filter"
         '
         'Acc2ConvertBindingSource
@@ -595,7 +595,7 @@ Partial Class FullViewResult
         'BindingNavigatorCountItem
         '
         Me.BindingNavigatorCountItem.Name = "BindingNavigatorCountItem"
-        Me.BindingNavigatorCountItem.Size = New System.Drawing.Size(36, 22)
+        Me.BindingNavigatorCountItem.Size = New System.Drawing.Size(35, 22)
         Me.BindingNavigatorCountItem.Text = "of {0}"
         Me.BindingNavigatorCountItem.ToolTipText = "Total number of items"
         '
@@ -703,13 +703,13 @@ Partial Class FullViewResult
         '
         Me.ToolStripLabel4.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right
         Me.ToolStripLabel4.Name = "ToolStripLabel4"
-        Me.ToolStripLabel4.Size = New System.Drawing.Size(31, 22)
+        Me.ToolStripLabel4.Size = New System.Drawing.Size(33, 22)
         Me.ToolStripLabel4.Text = "Filter"
         '
         'ToolStripLabel15
         '
         Me.ToolStripLabel15.Name = "ToolStripLabel15"
-        Me.ToolStripLabel15.Size = New System.Drawing.Size(62, 22)
+        Me.ToolStripLabel15.Size = New System.Drawing.Size(69, 22)
         Me.ToolStripLabel15.Text = "College No:"
         '
         'ToolStripTextBox13
@@ -730,7 +730,7 @@ Partial Class FullViewResult
         Me.ToolStripButton59.Image = Global.AukSoftware.My.Resources.VSImages.Filter2HS
         Me.ToolStripButton59.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton59.Name = "ToolStripButton59"
-        Me.ToolStripButton59.Size = New System.Drawing.Size(117, 22)
+        Me.ToolStripButton59.Size = New System.Drawing.Size(122, 22)
         Me.ToolStripButton59.Text = "FilterSelected Text"
         '
         'TabPage2
@@ -882,7 +882,7 @@ Partial Class FullViewResult
         'ToolStripLabel1
         '
         Me.ToolStripLabel1.Name = "ToolStripLabel1"
-        Me.ToolStripLabel1.Size = New System.Drawing.Size(36, 22)
+        Me.ToolStripLabel1.Size = New System.Drawing.Size(35, 22)
         Me.ToolStripLabel1.Text = "of {0}"
         Me.ToolStripLabel1.ToolTipText = "Total number of items"
         '
@@ -991,7 +991,7 @@ Partial Class FullViewResult
         '
         Me.ToolStripLabel14.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right
         Me.ToolStripLabel14.Name = "ToolStripLabel14"
-        Me.ToolStripLabel14.Size = New System.Drawing.Size(62, 22)
+        Me.ToolStripLabel14.Size = New System.Drawing.Size(69, 22)
         Me.ToolStripLabel14.Text = "College No:"
         '
         'TabPage3
@@ -1142,7 +1142,7 @@ Partial Class FullViewResult
         'ToolStripLabel2
         '
         Me.ToolStripLabel2.Name = "ToolStripLabel2"
-        Me.ToolStripLabel2.Size = New System.Drawing.Size(36, 22)
+        Me.ToolStripLabel2.Size = New System.Drawing.Size(35, 22)
         Me.ToolStripLabel2.Text = "of {0}"
         Me.ToolStripLabel2.ToolTipText = "Total number of items"
         '
@@ -1251,7 +1251,7 @@ Partial Class FullViewResult
         '
         Me.ToolStripLabel13.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right
         Me.ToolStripLabel13.Name = "ToolStripLabel13"
-        Me.ToolStripLabel13.Size = New System.Drawing.Size(62, 22)
+        Me.ToolStripLabel13.Size = New System.Drawing.Size(69, 22)
         Me.ToolStripLabel13.Text = "College No:"
         '
         'TabPage4
@@ -1415,7 +1415,7 @@ Partial Class FullViewResult
         'ToolStripLabel3
         '
         Me.ToolStripLabel3.Name = "ToolStripLabel3"
-        Me.ToolStripLabel3.Size = New System.Drawing.Size(36, 22)
+        Me.ToolStripLabel3.Size = New System.Drawing.Size(35, 22)
         Me.ToolStripLabel3.Text = "of {0}"
         Me.ToolStripLabel3.ToolTipText = "Total number of items"
         '
@@ -1524,7 +1524,7 @@ Partial Class FullViewResult
         '
         Me.ToolStripLabel12.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right
         Me.ToolStripLabel12.Name = "ToolStripLabel12"
-        Me.ToolStripLabel12.Size = New System.Drawing.Size(62, 22)
+        Me.ToolStripLabel12.Size = New System.Drawing.Size(69, 22)
         Me.ToolStripLabel12.Text = "College No:"
         '
         'TabPage9
@@ -1576,7 +1576,7 @@ Partial Class FullViewResult
         'ToolStripLabel10
         '
         Me.ToolStripLabel10.Name = "ToolStripLabel10"
-        Me.ToolStripLabel10.Size = New System.Drawing.Size(36, 22)
+        Me.ToolStripLabel10.Size = New System.Drawing.Size(35, 22)
         Me.ToolStripLabel10.Text = "of {0}"
         Me.ToolStripLabel10.ToolTipText = "Total number of items"
         '
@@ -1685,7 +1685,7 @@ Partial Class FullViewResult
         '
         Me.ToolStripLabel11.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right
         Me.ToolStripLabel11.Name = "ToolStripLabel11"
-        Me.ToolStripLabel11.Size = New System.Drawing.Size(62, 22)
+        Me.ToolStripLabel11.Size = New System.Drawing.Size(69, 22)
         Me.ToolStripLabel11.Text = "College No:"
         '
         'TabPage5
@@ -1831,7 +1831,7 @@ Partial Class FullViewResult
         'ToolStripLabel5
         '
         Me.ToolStripLabel5.Name = "ToolStripLabel5"
-        Me.ToolStripLabel5.Size = New System.Drawing.Size(36, 22)
+        Me.ToolStripLabel5.Size = New System.Drawing.Size(35, 22)
         Me.ToolStripLabel5.Text = "of {0}"
         Me.ToolStripLabel5.ToolTipText = "Total number of items"
         '
@@ -1939,7 +1939,7 @@ Partial Class FullViewResult
         '
         Me.ToolStripLabel6.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right
         Me.ToolStripLabel6.Name = "ToolStripLabel6"
-        Me.ToolStripLabel6.Size = New System.Drawing.Size(31, 22)
+        Me.ToolStripLabel6.Size = New System.Drawing.Size(33, 22)
         Me.ToolStripLabel6.Text = "Filter"
         '
         'TabPage6
@@ -2084,7 +2084,7 @@ Partial Class FullViewResult
         'ToolStripLabel7
         '
         Me.ToolStripLabel7.Name = "ToolStripLabel7"
-        Me.ToolStripLabel7.Size = New System.Drawing.Size(36, 22)
+        Me.ToolStripLabel7.Size = New System.Drawing.Size(35, 22)
         Me.ToolStripLabel7.Text = "of {0}"
         Me.ToolStripLabel7.ToolTipText = "Total number of items"
         '
@@ -2316,7 +2316,7 @@ Partial Class FullViewResult
         'ToolStripLabel8
         '
         Me.ToolStripLabel8.Name = "ToolStripLabel8"
-        Me.ToolStripLabel8.Size = New System.Drawing.Size(36, 22)
+        Me.ToolStripLabel8.Size = New System.Drawing.Size(35, 22)
         Me.ToolStripLabel8.Text = "of {0}"
         Me.ToolStripLabel8.ToolTipText = "Total number of items"
         '
@@ -2561,7 +2561,7 @@ Partial Class FullViewResult
         'ToolStripLabel9
         '
         Me.ToolStripLabel9.Name = "ToolStripLabel9"
-        Me.ToolStripLabel9.Size = New System.Drawing.Size(36, 22)
+        Me.ToolStripLabel9.Size = New System.Drawing.Size(35, 22)
         Me.ToolStripLabel9.Text = "of {0}"
         Me.ToolStripLabel9.ToolTipText = "Total number of items"
         '
